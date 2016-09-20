@@ -1,7 +1,0 @@
-[24-Feb-2015 08:55:54] PHP Warning:  fopen(HTMLemails/fr_.html) [<a href='function.fopen'>function.fopen</a>]: failed to open stream: No such file or directory in /home/jamdigit/public_html/clients/bell/4600/process_email.php on line 11
-[24-Feb-2015 08:55:54] PHP Warning:  fgets() expects parameter 1 to be resource, boolean given in /home/jamdigit/public_html/clients/bell/4600/process_html.php on line 3
-[06-Mar-2015 10:05:31] PHP Parse error:  syntax error, unexpected T_STRING, expecting '(' in /home/jamdigit/public_html/clients/bell/4600/sendmail.php on line 17
-[06-Mar-2015 10:05:39] PHP Parse error:  syntax error, unexpected T_STRING, expecting '(' in /home/jamdigit/public_html/clients/bell/4600/sendmail.php on line 17
-[06-Mar-2015 10:07:14] PHP Parse error:  syntax error, unexpected T_STRING, expecting '(' in /home/jamdigit/public_html/clients/bell/4600/sendmail.php on line 17
-[06-Mar-2015 10:09:04] PHP Parse error:  syntax error, unexpected T_STRING, expecting '(' in /home/jamdigit/public_html/clients/bell/4600/sendmail.php on line 17
-[19-Mar-2015 06:53:47] PHP Parse error:  syntax error, unexpected '<' in /home/jamdigit/public_html/clients/bell/4600/index.php on line 58
