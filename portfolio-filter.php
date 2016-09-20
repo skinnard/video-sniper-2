@@ -124,7 +124,7 @@
 
                   <div class="col-md-6 col-sm-6 custompadding  email">
                     <a href="portfolio-pages/ppv.php" class="primal-portfolio_item">
-                      <img src="assets/portfolio/email/BELL/6119/img-6008.png" alt="image" class="img-responsive" />
+                      <img src="assets/portfolio/email/BELL/6008/img-6008.png" alt="image" class="img-responsive" />
                       <div class="primal-portfolio-overlay">
                         <div class="primal-overlay-items">
                         <p>
