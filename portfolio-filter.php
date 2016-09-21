@@ -42,9 +42,7 @@
           <div class="portfolio-split">
             <div class="portfolio-intro">
               <span class="wow fadeInDown" data-wow-delay=".1s">Portfolio</span>
-              <h1 class="wow fadeInDown" data-wow-delay=".2s">All this a set of pieces of creative work intended to demonstrate
-                  my ability to a potential employer.
-              </h1>
+              <h1 class="wow fadeInDown" data-wow-delay=".2s">Have a look at some things I made.</h1>
             </div>
             <!-- Portfolio Start -->
 
@@ -227,7 +225,7 @@
                     <!-- primal item end -->
 
                     <div class="col-md-6 col-sm-6 custompadding  web">
-                      <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
+                      <a href="portfolio-pages/portfolio-web-jam.php" class="primal-portfolio_item">
                         <img src="assets/portfolio/web/jam/img-jam.jpg" alt="image" class="img-responsive" />
                         <div class="primal-portfolio-overlay">
                           <div class="primal-overlay-items">
@@ -256,7 +254,7 @@
                     <!-- primal item end -->
 
                    <div class="col-md-6 col-sm-6 custompadding  email">
-                    <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
+                    <a href="portfolio-pages/portfolio-email-5865.php" class="primal-portfolio_item">
                       <img src="assets/portfolio/email/BMO/img-5865.png" alt="image" class="img-responsive" />
                       <div class="primal-portfolio-overlay">
                         <div class="primal-overlay-items">
@@ -271,8 +269,8 @@
 
 
               <div class="col-md-6 col-sm-6 custompadding  web">
-                <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
-                  <img src="assets/portfolio/web/brs-jamdirect-ca/img-brs.jpg" alt="image" class="img-responsive" />
+                <a href="portfolio-pages/portfolio-web-csp.php" class="primal-portfolio_item">
+                  <img src="assets/portfolio/web/csp/img-csp.jpg" alt="image" class="img-responsive" />
                   <div class="primal-portfolio-overlay">
                     <div class="primal-overlay-items">
                     <p>
@@ -285,7 +283,7 @@
               <!-- primal item end -->
 
               <div class="col-md-6 col-sm-6 custompadding  email">
-                <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
+                <a href="portfolio-pages/portfolio-email-5540.php" class="primal-portfolio_item">
                   <img src="assets/portfolio/email/Toyota/img-5540.png" alt="image" class="img-responsive" />
                   <div class="primal-portfolio-overlay">
                     <div class="primal-overlay-items">
@@ -299,7 +297,7 @@
               <!-- primal item end -->
 
               <div class="col-md-6 col-sm-6 custompadding  web">
-                <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
+                <a href="portfolio-pages/portfolio-web-landing-pages.php" class="primal-portfolio_item">
                   <img src="assets/portfolio/web/landing-pages/img-landing-pages.jpg" alt="image" class="img-responsive" />
                   <div class="primal-portfolio-overlay">
                     <div class="primal-overlay-items">
@@ -313,7 +311,7 @@
               <!-- primal item end -->
 
               <div class="col-md-6 col-sm-6 custompadding  art">
-                <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
+                <a href="portfolio-pages/portfolio-art-man.php" class="primal-portfolio_item">
                   <img src="assets/portfolio/art/man.jpg" alt="image" class="img-responsive" />
                   <div class="primal-portfolio-overlay">
                     <div class="primal-overlay-items">
@@ -327,7 +325,7 @@
               <!-- primal item end -->
 
               <div class="col-md-6 col-sm-6 custompadding  web">
-                <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
+                <a href="portfolio-pages/portfolio-web-ftl.php" class="primal-portfolio_item">
                   <img src="assets/portfolio/web/ftl/img-ftl.jpg" alt="image" class="img-responsive" />
                   <div class="primal-portfolio-overlay">
                     <div class="primal-overlay-items">
@@ -355,7 +353,7 @@
               <!-- primal item end -->
 
                <div class="col-md-6 col-sm-6 custompadding  web">
-                <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
+                <a href="portfolio-pages/portfolio-web-poets.php" class="primal-portfolio_item">
                   <img src="assets/portfolio/web/poets/img-poets.jpg" alt="image" class="img-responsive" />
                   <div class="primal-portfolio-overlay">
                     <div class="primal-overlay-items">
@@ -370,7 +368,7 @@
 
               <!-- primal item -->
               <div class="col-md-6 col-sm-6 custompadding   art">
-                <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
+                <a href="portfolio-pages/portfolio-art-danger.php" class="primal-portfolio_item">
                   <img src="assets/portfolio/art/spider.jpg" alt="image" class="img-responsive" />
                   <div class="primal-portfolio-overlay">
                     <div class="primal-overlay-items">
@@ -385,7 +383,7 @@
 
               <!-- primal item -->
               <div class="col-md-6 col-sm-6 custompadding  art">
-                <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
+                <a href="portfolio-pages/portfolio-art-danger.php" class="primal-portfolio_item">
                   <img src="assets/portfolio/art/danger.jpg" alt="image" class="img-responsive" />
                   <div class="primal-portfolio-overlay">
                     <div class="primal-overlay-items">

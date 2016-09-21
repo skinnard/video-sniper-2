@@ -663,7 +663,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .left-section {
-    background: url(../images/b.jpg) no-repeat center center;
+    background: url(../images/glen_pills_BW.png) no-repeat center center;
 		background-size: cover;
 		position: absolute;
     left: 0;
@@ -1139,7 +1139,7 @@ h1, h2, h3, h4, h5, h6 {
 /* ----- Portfolio Single Style Starts ----- */
 
 .portfolio-single {
-	padding-top: 150px;
+	padding-top: 100px;
 	text-align: center;
 }
 

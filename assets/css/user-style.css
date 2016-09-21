@@ -1,5 +1,9 @@
 .intro-personal .intro-text h3 {
-	font-size: 30px;
+	font-size: 26px;
 	padding-top: 15px;
 	font-weight: 100;
+}
+div.portfolio-single {
+  padding-top: 100px;
+	text-align: center;
 }
