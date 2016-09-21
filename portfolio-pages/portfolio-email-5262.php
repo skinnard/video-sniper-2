@@ -52,7 +52,7 @@
               <h4 class="wow fadeInLeft"  data-wow-delay=".1s">EMAIL</h4>
               <h1 class="wow fadeInLeft" data-wow-delay=".2s">Lexus Canada</h1>
               <p class="wow fadeInLeft" data-wow-delay=".3s">
-                Responsive email for Lexus Canada. Dynamic versions deployed throgh Exact Target. 
+                Responsive email for Lexus Canada. Dynamic versions deployed through Exact Target. 
               </p>
             <div class="project-images wow fadeInLeft"  data-wow-delay=".4s">
               <img src="../assets/portfolio/email/Lexus/img-5262.png" alt="project image" />
@@ -67,9 +67,9 @@
 <!-- Footer Split Home -->
      <div class="footer-personal text-center">
         <ul>
-          <li><a href="about.php">About me</a></li>
-          <li><a href="portfolio-filter.php">Portfolio</a></li>
-          <li><a href="contact.php">Contact</a></li>
+          <li><a href="../about.php">About me</a></li>
+          <li><a href="../portfolio-filter.php">Portfolio</a></li>
+          <li><a href="../contact.php">Contact</a></li>
         </ul>
       <br>
     </div>

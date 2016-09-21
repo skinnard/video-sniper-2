@@ -55,7 +55,7 @@
                 Website for The Handsome Devils band.
               </p>
             <div class="project-images wow fadeInLeft"  data-wow-delay=".4s">
-              <img src="../assets/portfolio/art/clint.jpg" alt="project image" />
+              <img src="../assets/portfolio/web/thd-img-thd.jpg" alt="project image" />
             </div>
           <div class="col-md-12 text-center">
             <div class="link-back">
@@ -67,9 +67,9 @@
 <!-- Footer Split Home -->
      <div class="footer-personal text-center">
         <ul>
-          <li><a href="about.php">About me</a></li>
-          <li><a href="portfolio-filter.php">Portfolio</a></li>
-          <li><a href="contact.php">Contact</a></li>
+          <li><a href="../about.php">About me</a></li>
+          <li><a href="../portfolio-filter.php">Portfolio</a></li>
+          <li><a href="../contact.php">Contact</a></li>
         </ul>
       <br>
     </div>

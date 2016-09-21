@@ -50,12 +50,12 @@
           <div class="portfolio-single">
             <div class="project-details">
               <h4 class="wow fadeInLeft"  data-wow-delay=".1s">WEB</h4>
-              <h1 class="wow fadeInLeft" data-wow-delay=".2s">Clint</h1>
+              <h1 class="wow fadeInLeft" data-wow-delay=".2s">Bell Creative Sharing Platform</h1>
               <p class="wow fadeInLeft" data-wow-delay=".3s">
-                Digital portrait. Photoshop and illustrator used in creation. 
+                Created a site where Bell employees can quickly check and reference new and old creative.
               </p>
             <div class="project-images wow fadeInLeft"  data-wow-delay=".4s">
-              <img src="../assets/portfolio/art/clint.jpg" alt="project image" />
+              <img src="../assets/portfolio/web/csp/img-csp.jpg" alt="project image" />
             </div>
           <div class="col-md-12 text-center">
             <div class="link-back">
@@ -67,9 +67,9 @@
 <!-- Footer Split Home -->
      <div class="footer-personal text-center">
         <ul>
-          <li><a href="about.php">About me</a></li>
-          <li><a href="portfolio-filter.php">Portfolio</a></li>
-          <li><a href="contact.php">Contact</a></li>
+          <li><a href="../about.php">About me</a></li>
+          <li><a href="../portfolio-filter.php">Portfolio</a></li>
+          <li><a href="../contact.php">Contact</a></li>
         </ul>
       <br>
     </div>

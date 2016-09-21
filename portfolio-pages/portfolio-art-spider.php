@@ -67,9 +67,9 @@
 <!-- Footer Split Home -->
      <div class="footer-personal text-center">
         <ul>
-          <li><a href="about.php">About me</a></li>
-          <li><a href="portfolio-filter.php">Portfolio</a></li>
-          <li><a href="contact.php">Contact</a></li>
+          <li><a href="../about.php">About me</a></li>
+          <li><a href="../portfolio-filter.php">Portfolio</a></li>
+          <li><a href="../contact.php">Contact</a></li>
         </ul>
       <br>
     </div>
