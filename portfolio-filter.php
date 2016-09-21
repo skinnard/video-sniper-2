@@ -66,7 +66,6 @@
                      <li><a href="" data-filter=".email">Email</a></li>
                      <li><a href="" data-filter=".web">Web</a></li>
                      <li><a href="" data-filter=".art">Art</a></li>
-                     <li><a href="" data-filter=".ads">Ads</a></li>
                   </ul>
                 </nav>
               </div>
@@ -252,7 +251,7 @@
 
                     <!-- primal item -->
                     <div class="col-md-6 col-sm-6 custompadding  art">
-                      <a href="portfolio-single.html" class="primal-portfolio_item">
+                      <a href="portfolio-pages/portfolio-art-clint.php" class="primal-portfolio_item">
                         <img src="assets/portfolio/art/clint.jpg" alt="image" class="img-responsive" />
                         <div class="primal-portfolio-overlay">
                           <div class="primal-overlay-items">
