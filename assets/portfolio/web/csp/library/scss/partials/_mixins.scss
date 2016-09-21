@@ -1,0 +1,65 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Mixins Stylesheet
+******************************************************************/
+
+
+/*********************
+TRANSITION
+*********************/
+
+@mixin transition($transition...) {
+  // defining prefixes so we can use them in mixins below
+  $prefixes:      ("-webkit-", "" );
+  @each $prefix in $prefixes {
+    #{$prefix}transition: $transition;
+  }
+}
+
+
+/*********************
+CSS3 GRADIENTS
+*********************/
+
+/* @include css-gradient(#dfdfdf,#f8f8f8); */
+@mixin css-gradient($from: #dfdfdf, $to: #f8f8f8) {
+	background-color: $to;
+	background-image: -webkit-gradient(linear, left top, left bottom, from($from), to($to));
+	background-image: -webkit-linear-gradient(top, $from, $to);
+	background-image: -moz-linear-gradient(top, $from, $to);
+	background-image: -o-linear-gradient(top, $from, $to);
+	background-image: linear-gradient(to bottom, $from, $to);
+}
+
+/*********************
+THUMBNAIL STYLES
+*********************/
+
+%thumb {
+  background: $white;
+  position: absolute;
+  left: 10px;
+  margin: 10px 0 0;
+  width: 110px;
+  height: 110px;
+  border: 2px solid $header-gray;
+  border-bottom-left-radius: 10px;
+  background-size: 100%;
+}
+
+%dropdown {
+  position: absolute;
+  cursor: pointer;
+  width: 150px;
+  background: $button-blue;
+  color: $white;
+  padding: 10px 10px 8px;
+  line-height: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  left: 17px;
+  behavior: url("library/PIE/PIE.htc");
+}

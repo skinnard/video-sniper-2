@@ -54,7 +54,7 @@
       <div class="intro-personal">
         <div class="intro-text">
           <h1 class="wow fadeInDown" data-wow-delay=".1s">Hi, my name is<br>Glen Hodges.</h1>
-          <h3 class="wow fadeInDown">I&rsquo;m a desginer, developer, artist and all-round nice guy. Feel free to check out my work!</h3>
+          <h3 class="wow fadeInDown">I&rsquo;m a desginer, developer, artist and all-round nice guy. My strength is a wide range of talents from art to music (and all the software I can get my hands on!). Feel free to check out my work.</h3>
           <a href="portfolio-filter.php" class="btn-contact wow fadeIn" data-wow-delay=".2s">See My Work</a>
         </div>
       </div>

@@ -30,15 +30,6 @@
     				<li><a href="portfolio-filter.php">Portfolio</a></li>
     				<li><a href="contact.php">Contact</a></li>
     			</ul> <!-- cd-single-item-wrapper -->
-
-  			<!-- <div class="nav-social">
-  				<ul>
-  					<li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-  					<li><a href="#"><i class="ion-social-dribbble-outline"></i></a></li>
-  					<li><a href="#"><i class="ion-social-github"></i></a></li>
-            <li><a href="#"><i class="ion-social-linkedin-outline"></i></a></li>
-  				</ul>
-  			</div> -->
       </div>
 
     <!-- Homepage Main Section-->
@@ -79,7 +70,7 @@
                 **************************************************** -->  
 
                   <div class="col-md-6 col-sm-6 custompadding  email">
-                    <a href="portfolio-pages/ppv.php" class="primal-portfolio_item">
+                    <a href="portfolio-pages/portfolio-email-5371.php" class="primal-portfolio_item">
                       <img src="assets/portfolio/email/Scion/img-5371.png" alt="image" class="img-responsive" />
                       <div class="primal-portfolio-overlay">
                         <div class="primal-overlay-items">
@@ -94,12 +85,12 @@
 
                   <!-- primal item -->
                     <div class="col-md-6 col-sm-6 custompadding  art">
-                      <a href="portfolio-single.html" class="primal-portfolio_item">
+                      <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
                         <img src="assets/portfolio/art/jon.jpg" alt="image" class="img-responsive" />
                         <div class="primal-portfolio-overlay">
                           <div class="primal-overlay-items">
                           <p>
-                            Art
+                            Painting
                           </p>
                         </div>
                         </div>
@@ -108,12 +99,12 @@
                   <!-- primal item end -->  
 
                   <div class="col-md-6 col-sm-6 custompadding  web">
-                    <a href="portfolio-pages/portfolio-thd.php" class="primal-portfolio_item">
+                    <a href="portfolio-pages/portfolio-web-iwantthat.php" class="primal-portfolio_item">
                       <img src="assets/portfolio/web/thd/img-thd.jpg" alt="image" class="img-responsive" />
                       <div class="primal-portfolio-overlay">
                         <div class="primal-overlay-items">
                         <p>
-                          Web
+                          Website
                         </p>
                       </div>
                       </div>
@@ -122,7 +113,7 @@
                   <!-- primal item end -->
 
                   <div class="col-md-6 col-sm-6 custompadding  email">
-                    <a href="portfolio-pages/ppv.php" class="primal-portfolio_item">
+                    <a href="portfolio-pages/portfolio-email-6008.php" class="primal-portfolio_item">
                       <img src="assets/portfolio/email/BELL/6008/img-6008.png" alt="image" class="img-responsive" />
                       <div class="primal-portfolio-overlay">
                         <div class="primal-overlay-items">
@@ -136,12 +127,12 @@
                   <!-- primal item end -->
 
                   <div class="col-md-6 col-sm-6 custompadding  web">
-                    <a href="portfolio-pages/portfolio-mym.php" class="primal-portfolio_item">
+                    <a href="portfolio-pages/portfolio-web-mym.php" class="primal-portfolio_item">
                       <img src="assets/portfolio/web/mym/img-mym.jpg" alt="image" class="img-responsive" />
                       <div class="primal-portfolio-overlay">
                         <div class="primal-overlay-items">
                         <p>
-                          Web
+                          Website
                         </p>
                       </div>
                       </div>
@@ -151,12 +142,12 @@
 
                   <!-- primal item -->
                     <div class="col-md-6 col-sm-6 custompadding  art">
-                      <a href="portfolio-single.html" class="primal-portfolio_item">
+                      <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
                         <img src="assets/portfolio/art/old_man.jpg" alt="image" class="img-responsive" />
                         <div class="primal-portfolio-overlay">
                           <div class="primal-overlay-items">
                           <p>
-                            Art
+                            Painting
                           </p>
                         </div>
                         </div>
@@ -165,7 +156,7 @@
                   <!-- primal item end -->
 
                    <div class="col-md-6 col-sm-6 custompadding  email">
-                    <a href="portfolio-pages/ppv.php" class="primal-portfolio_item">
+                    <a href="portfolio-pages/portfolio-email-5262.php" class="primal-portfolio_item">
                       <img src="assets/portfolio/email/Lexus/img-5262.png" alt="image" class="img-responsive" />
                       <div class="primal-portfolio-overlay">
                         <div class="primal-overlay-items">
@@ -179,12 +170,12 @@
                   <!-- primal item end -->
 
                   <div class="col-md-6 col-sm-6 custompadding  web">
-                    <a href="portfolio-pages/portfolio-kh.php" class="primal-portfolio_item">
+                    <a href="portfolio-pages/portfolio-web-kh.php" class="primal-portfolio_item">
                       <img src="assets/portfolio/web/kh/img-kh.jpg" alt="image" class="img-responsive" />
                       <div class="primal-portfolio-overlay">
                         <div class="primal-overlay-items">
                         <p>
-                          Web
+                          Website
                         </p>
                       </div>
                       </div>
@@ -194,12 +185,12 @@
 
                   <!-- primal item -->
                     <div class="col-md-6 col-sm-6 custompadding  art">
-                      <a href="portfolio-single.html" class="primal-portfolio_item">
+                      <a href="portfolio-pages/portfolio-art-robot.php" class="primal-portfolio_item">
                         <img src="assets/portfolio/art/robot.jpg" alt="image" class="img-responsive" />
                         <div class="primal-portfolio-overlay">
                           <div class="primal-overlay-items">
                           <p>
-                            Art
+                            Digital Illustration
                           </p>
                         </div>
                         </div>
@@ -208,12 +199,12 @@
                     <!-- primal item end -->
 
                     <div class="col-md-6 col-sm-6 custompadding  web">
-                      <a href="portfolio-pages/portfolio-iwantthat.php" class="primal-portfolio_item">
+                      <a href="portfolio-pages/portfolio-web-iwantthat.php" class="primal-portfolio_item">
                         <img src="assets/portfolio/web/i-want-that-contest/img-iwantthat.jpg" alt="image" class="img-responsive" />
                         <div class="primal-portfolio-overlay">
                           <div class="primal-overlay-items">
                           <p>
-                            Web
+                            Website
                           </p>
                         </div>
                         </div>
@@ -222,7 +213,7 @@
                     <!-- primal item end -->
 
                      <div class="col-md-6 col-sm-6 custompadding  email">
-                      <a href="portfolio-pages/ppv.php" class="primal-portfolio_item">
+                      <a href="portfolio-pages/portfolio-email-ppv-august.php" class="primal-portfolio_item">
                         <img src="assets/portfolio/email/BELL/August/img-ppv-august.png" alt="image" class="img-responsive" />
                         <div class="primal-portfolio-overlay">
                           <div class="primal-overlay-items">
@@ -236,12 +227,12 @@
                     <!-- primal item end -->
 
                     <div class="col-md-6 col-sm-6 custompadding  web">
-                      <a href="portfolio-pages/portfolio-jam.php" class="primal-portfolio_item">
+                      <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
                         <img src="assets/portfolio/web/jam/img-jam.jpg" alt="image" class="img-responsive" />
                         <div class="primal-portfolio-overlay">
                           <div class="primal-overlay-items">
                           <p>
-                            Web
+                            Website
                           </p>
                         </div>
                         </div>
@@ -256,7 +247,7 @@
                         <div class="primal-portfolio-overlay">
                           <div class="primal-overlay-items">
                           <p>
-                            Art
+                            Digital Illustration
                           </p>
                         </div>
                         </div>
@@ -265,7 +256,7 @@
                     <!-- primal item end -->
 
                    <div class="col-md-6 col-sm-6 custompadding  email">
-                    <a href="portfolio-pages/ppv.php" class="primal-portfolio_item">
+                    <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
                       <img src="assets/portfolio/email/BMO/img-5865.png" alt="image" class="img-responsive" />
                       <div class="primal-portfolio-overlay">
                         <div class="primal-overlay-items">
@@ -279,13 +270,13 @@
                   <!-- primal item end -->
 
 
-                    <div class="col-md-6 col-sm-6 custompadding  web">
-                <a href="portfolio-pages/portfolio-brs.php" class="primal-portfolio_item">
+              <div class="col-md-6 col-sm-6 custompadding  web">
+                <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
                   <img src="assets/portfolio/web/brs-jamdirect-ca/img-brs.jpg" alt="image" class="img-responsive" />
                   <div class="primal-portfolio-overlay">
                     <div class="primal-overlay-items">
                     <p>
-                      Web
+                      Website
                     </p>
                   </div>
                   </div>
@@ -294,7 +285,7 @@
               <!-- primal item end -->
 
               <div class="col-md-6 col-sm-6 custompadding  email">
-                <a href="portfolio-pages/ppv.php" class="primal-portfolio_item">
+                <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
                   <img src="assets/portfolio/email/Toyota/img-5540.png" alt="image" class="img-responsive" />
                   <div class="primal-portfolio-overlay">
                     <div class="primal-overlay-items">
@@ -308,12 +299,12 @@
               <!-- primal item end -->
 
               <div class="col-md-6 col-sm-6 custompadding  web">
-                <a href="portfolio-pages/landing-pages.php" class="primal-portfolio_item">
+                <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
                   <img src="assets/portfolio/web/landing-pages/img-landing-pages.jpg" alt="image" class="img-responsive" />
                   <div class="primal-portfolio-overlay">
                     <div class="primal-overlay-items">
                     <p>
-                      Web
+                      Website
                     </p>
                   </div>
                   </div>
@@ -322,12 +313,12 @@
               <!-- primal item end -->
 
               <div class="col-md-6 col-sm-6 custompadding  art">
-                <a href="portfolio-single.html" class="primal-portfolio_item">
+                <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
                   <img src="assets/portfolio/art/man.jpg" alt="image" class="img-responsive" />
                   <div class="primal-portfolio-overlay">
                     <div class="primal-overlay-items">
                     <p>
-                      Art
+                      Painting
                     </p>
                   </div>
                   </div>
@@ -336,12 +327,12 @@
               <!-- primal item end -->
 
               <div class="col-md-6 col-sm-6 custompadding  web">
-                <a href="portfolio-pages/ftl.php" class="primal-portfolio_item">
+                <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
                   <img src="assets/portfolio/web/ftl/img-ftl.jpg" alt="image" class="img-responsive" />
                   <div class="primal-portfolio-overlay">
                     <div class="primal-overlay-items">
                     <p>
-                      Web
+                      Website
                     </p>
                   </div>
                   </div>
@@ -350,7 +341,7 @@
               <!-- primal item end -->
 
               <div class="col-md-6 col-sm-6 custompadding  email">
-                <a href="portfolio-pages/ppv.php" class="primal-portfolio_item">
+                <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
                   <img src="assets/portfolio/email/BELL/6119/img-6119.png" alt="image" class="img-responsive" />
                   <div class="primal-portfolio-overlay">
                     <div class="primal-overlay-items">
@@ -364,12 +355,12 @@
               <!-- primal item end -->
 
                <div class="col-md-6 col-sm-6 custompadding  web">
-                <a href="portfolio-pages/poets.php" class="primal-portfolio_item">
+                <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
                   <img src="assets/portfolio/web/poets/img-poets.jpg" alt="image" class="img-responsive" />
                   <div class="primal-portfolio-overlay">
                     <div class="primal-overlay-items">
                     <p>
-                      Web
+                      Website
                     </p>
                   </div>
                   </div>
@@ -379,12 +370,12 @@
 
               <!-- primal item -->
               <div class="col-md-6 col-sm-6 custompadding   art">
-                <a href="portfolio-single.html" class="primal-portfolio_item">
+                <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
                   <img src="assets/portfolio/art/spider.jpg" alt="image" class="img-responsive" />
                   <div class="primal-portfolio-overlay">
                     <div class="primal-overlay-items">
                     <p>
-                      Art
+                      Digital Illustration
                     </p>
                   </div>
                   </div>
@@ -394,12 +385,12 @@
 
               <!-- primal item -->
               <div class="col-md-6 col-sm-6 custompadding  art">
-                <a href="portfolio-single.html" class="primal-portfolio_item">
+                <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
                   <img src="assets/portfolio/art/danger.jpg" alt="image" class="img-responsive" />
                   <div class="primal-portfolio-overlay">
                     <div class="primal-overlay-items">
                     <p>
-                      Art
+                      Digital Illustration
                     </p>
                   </div>
                   </div>
@@ -412,62 +403,6 @@
               END OF PORTFOLIO ITEMS
 
               **************************************************** -->
-
-
-
-
-
-
-            
-
-              
-
-
-
-
-
-
-
-
-
-
-
-
-            
-
-              
-
-
-              
-
-
-              
-              
-
-              
-
-              
-
-              
-
-             
-
-             
-
-               
-              
-              
-
-             
-
-             
-
-              
-
-              
-
-
-
 
           </div>
         </div>

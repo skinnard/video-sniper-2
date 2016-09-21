@@ -1,0 +1,40 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Typography
+******************************************************************/
+
+
+/*********************
+FONT FACE (IN YOUR FACE)
+*********************/
+@font-face {
+    font-family: 'bellslimregular';
+    src:  url('../fonts/bellslim/bellslimregular-webfont.eot?#iefix') format('eot'),
+          url('../fonts/bellslim/bellslimregular-webfont.woff') format('woff'),
+          url('../fonts/bellslim/bellslimregular-webfont.ttf') format('truetype'),
+          url('../fonts/bellslim/bellslimregular-webfont.svg#webfontwwJjETcK') format('svg');
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+// font stacks
+$bell:              "bellslimregular", Helvetica, Arial, sans-serif;
+$sans-serif:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif:             "Georgia", Cambria, Times New Roman, Times, serif;
+
+
+/*
+some nice typographical defaults
+more here: http://www.newnet-soft.com/blog/csstypography
+*/
+p {
+  // enabling fancy ligatures when available
+  -webkit-font-feature-settings: "liga", "dlig";
+   -moz-font-feature-settings: "liga=1, dlig=1";
+      -ms-font-feature-settings: "liga", "dlig";
+       -o-font-feature-settings: "liga", "dlig";
+          font-feature-settings: "liga", "dlig";
+}
