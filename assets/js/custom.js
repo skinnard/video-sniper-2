@@ -87,6 +87,8 @@ $('.primal-portfolio_filter a').on('click', function () {
 	return false;
 });
 
+$container.isotope('layout');
+
 
 
 /* ---- particles.js config ---- */
