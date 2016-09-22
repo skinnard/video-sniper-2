@@ -7,9 +7,13 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
     <link href='https://fonts.googleapis.com/css?family=Poppins:400,600,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Work+Sans:600,500,400,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="assets/css/animate.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="assets/css/justifiedGallery.min.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="assets/css/lightcase.css"> <!-- Resource style -->
     <link rel="stylesheet" href="assets/css/ionicons.min.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="assets/css/animate.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="assets/css/featherlight.min.css"><!-- Resource style -->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/user-style.css" rel="stylesheet" type="text/css" media="all" />
   </head>
   <body>
 
@@ -49,7 +53,7 @@
           <div class="split-contact">
             <div class="split-contact-intro">
               <h4 class="wow fadeInDown"  data-wow-delay=".1s">Contact Me</h4>
-              <h1 class="wow fadeInDown"  data-wow-delay=".2s">Feel free to give me shout if you want to chat.</h1>
+              <h1 class="wow fadeInDown"  data-wow-delay=".2s">Feel free to give me shout!</h1>
             <div class="split-form">
               <form class="wow fadeIn" data-wow-delay=".4s" id="contact-form" method="post" action="assets/php/contact.php" role="form">
 				        <div class="messages"></div>
@@ -115,5 +119,6 @@
     <script type="text/javascript" src="assets/js/contact.js"></script>
     <script type="text/javascript" src="assets/js/validator.js"></script>
     <script type="text/javascript" src="assets/js/custom.js"></script>
+    <script type="text/javascript" src="assets/js/featherlight.min.js"></script>
   </body>
 </html>

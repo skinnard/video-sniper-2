@@ -7,10 +7,13 @@
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
     <link href='https://fonts.googleapis.com/css?family=Poppins:400,600,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Work+Sans:600,500,400,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="../assets/css/animate.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="../assets/css/justifiedGallery.min.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="../assets/css/lightcase.css"> <!-- Resource style -->
     <link rel="stylesheet" href="../assets/css/ionicons.min.css"> <!-- Resource style -->
-    <link rel="stylesheet" href="../assets/css/vegas.min.css"> <!-- Resource style -->
-    <link href="../assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="../assets/css/animate.css"> <!-- Resource style -->
+    <link rel="stylesheet" href="../assets/css/featherlight.min.css"><!-- Resource style -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/user-style.css">
   </head>
   <body>
 
@@ -36,6 +39,13 @@
       <!-- <section id="project-images" class="left-section">
       </section> -->
       <section class="full-width">
+      <div class="lightbox" id="fl1">
+        <h2>Featherlight Default</h2>
+        <p>
+          This is a default featherlight lightbox.<br>
+          It's flexible in height and width.<br>
+          Everything that is used to display and style the box can be found in the <a href="https://github.com/noelboss/featherlight/blob/master/src/featherlight.css">featherlight.css</a> file which is pretty simple.</p>
+      </div>
         <a href="#" class="logo hidden-xs hidden-sm"><img src="../assets/images/logo.png" width="35" height="35" alt="Logo" /></a>
           <div class="portfolio-single">
             <div class="project-details">
@@ -45,7 +55,7 @@
                 Digital portrait. Photoshop and illustrator used in creation. 
               </p>
             <div class="project-images wow fadeInLeft"  data-wow-delay=".4s">
-              <img src="../assets/portfolio/art/clint.jpg" alt="project image" />
+            <a href="#" data-featherlight="#fl1"><img src="../assets/portfolio/art/clint.jpg" alt="project image" /></a>
             </div>
           <div class="col-md-12 text-center">
             <div class="link-back">
@@ -74,5 +84,7 @@
     <script type="text/javascript" src="../assets/js/plugins.js"></script>
     <script type="text/javascript" src="../assets/js/menu.js"></script>
     <script type="text/javascript" src="../assets/js/custom.js"></script>
+<script type="text/javascript" src="../assets/js/featherlight.min.js"></script>
+
   </body>
 </html>
