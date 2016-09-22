@@ -17,35 +17,25 @@
   <div class="wrapper">
     <a href="#" class="logo hidden-md hidden-lg"><img src="../assets/images/logo.png" width="35" height="35" alt="Logo" /></a>
       <div class="nav-trigger" id="nav-trigger">
-        <span></span>
+        <span></span> 
         <span></span>
         <span></span>
       </div>
       <div id="nav-menu">
         <a href="#" class="logo"><img src="../assets/images/logo.png" width="35" height="35" alt="Logo" /></a>
           <ul class="navigation cd-single-item-wrapper">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="portfolio-filter.php">Portfolio</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="../index.php">Home</a></li>
+            <li><a href="../about.php">About</a></li>
+            <li><a href="../portfolio-filter.php">Portfolio</a></li>
+            <li><a href="../contact.php">Contact</a></li>
           </ul> <!-- cd-single-item-wrapper -->
-
-          <!-- <div class="nav-social">
-            <ul>
-              <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-              <li><a href="#"><i class="ion-social-dribbble-outline"></i></a></li>
-              <li><a href="#"><i class="ion-social-github"></i></a></li>
-              <li><a href="#"><i class="ion-social-linkedin-outline"></i></a></li>
-            </ul>
-          </div> -->
-      </div>
-
+      </div>  
     <!-- Homepage Main Section-->
   <div class="main">
     <section class="split-home">
-      <section id="project-images" class="left-section no-background">
-      </section>
-      <section class="right-section">
+      <!-- <section id="project-images" class="left-section">
+      </section> -->
+      <section class="full-width">
         <a href="#" class="logo hidden-xs hidden-sm"><img src="../assets/images/logo.png" width="35" height="35" alt="Logo" /></a>
           <div class="portfolio-single">
             <div class="project-details">
@@ -55,7 +45,7 @@
                 Website for the annual I Want That contest for The Source Canada.
               </p>
             <div class="project-images wow fadeInLeft"  data-wow-delay=".4s">
-              <img src="../assets/portfolio/web/i-want-that-contest/img-iwantthat.jpg" alt="project image" />
+              <a href="../assets/portfolio/web/i-want-that-contest/"><img src="../assets/portfolio/web/i-want-that-contest/img-iwantthat.jpg" alt="project image" /></a>
             </div>
           <div class="col-md-12 text-center">
             <div class="link-back">

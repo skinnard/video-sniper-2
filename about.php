@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Portfolio</title>
+    <title>About</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
     <link href='https://fonts.googleapis.com/css?family=Poppins:400,600,700' rel='stylesheet' type='text/css'>
@@ -28,20 +28,9 @@
   				<li><a href="portfolio-filter.php">Portfolio</a></li>
   				<li><a href="contact.php">Contact</a></li>
   			</ul> <!-- cd-single-item-wrapper -->
+      </div>
 
-  		<!-- 	<div class="nav-social">
-  				<ul>
-  					<li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
-  					<li><a href="#"><i class="ion-social-dribbble-outline"></i></a></li>
-  					<li><a href="#"><i class="ion-social-github"></i></a></li>
-            <li><a href="#"><i class="ion-social-linkedin-outline"></i></a></li>
-  				</ul>
-  			</div>
-        <p class="copyright-text">Copyright 2016 Glen Hodges</p>
-    </div> -->
-
-
-    <!-- Homepage Main Section-->
+  <!-- Homepage Main Section-->
   <div class="main">
     <section class="split-home">
       <section class="left-section wow fadeIn" data-wow-delay=".2s">
@@ -54,7 +43,7 @@
             <h1 class="wow fadeInLeft"  data-wow-delay=".2s">Glen Hodges</h1>
             <span class="wow fadeInLeft"  data-wow-delay=".3s">Web Developer</span>
             <p class="wow fadeInLeft"  data-wow-delay=".3s">
-              I am obsessed with learning new things. New technologies, new techinques and new skills. I am a wed designer with one foot in the future and one firmly in the past. I love woodworking, cycling and coffee. I have 6 month old twins that are the light of my life and a wife that will never let me give up. 
+              I am obsessed with learning new things. New technologies, new techinques and new skills. I am a web designer with one foot in the future and one firmly in the past. I love woodworking, cycling and coffee. I have 6 month old twins that are the light of my life and a wife that will never let me give&nbsp;up. 
             </p>
             <div class="split-about-experience">
 						<h4 class="wow fadeInLeft" data-wow-delay=".4s">Work and Experience</h4>

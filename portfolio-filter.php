@@ -81,6 +81,20 @@
                   </div>
                   <!-- primal item end -->
 
+                  <div class="col-md-6 col-sm-6 custompadding  web">
+                    <a href="portfolio-pages/portfolio-web-mym.php" class="primal-portfolio_item">
+                      <img src="assets/portfolio/web/mym/img-mym.jpg" alt="image" class="img-responsive" />
+                      <div class="primal-portfolio-overlay">
+                        <div class="primal-overlay-items">
+                        <p>
+                          Website
+                        </p>
+                      </div>
+                      </div>
+                    </a>
+                  </div>
+                  <!-- primal item end -->
+
                   <!-- primal item -->
                     <div class="col-md-6 col-sm-6 custompadding  art">
                       <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
@@ -124,19 +138,7 @@
                   </div>
                   <!-- primal item end -->
 
-                  <div class="col-md-6 col-sm-6 custompadding  web">
-                    <a href="portfolio-pages/portfolio-web-mym.php" class="primal-portfolio_item">
-                      <img src="assets/portfolio/web/mym/img-mym.jpg" alt="image" class="img-responsive" />
-                      <div class="primal-portfolio-overlay">
-                        <div class="primal-overlay-items">
-                        <p>
-                          Website
-                        </p>
-                      </div>
-                      </div>
-                    </a>
-                  </div>
-                  <!-- primal item end -->
+                  
 
                   <!-- primal item -->
                     <div class="col-md-6 col-sm-6 custompadding  art">
@@ -151,6 +153,20 @@
                         </div>
                       </a>
                     </div>
+                  <!-- primal item end -->
+
+                  <div class="col-md-6 col-sm-6 custompadding  web">
+                    <a href="portfolio-pages/portfolio-web-csp.php" class="primal-portfolio_item">
+                      <img src="assets/portfolio/web/csp/img-csp.jpg" alt="image" class="img-responsive" />
+                      <div class="primal-portfolio-overlay">
+                        <div class="primal-overlay-items">
+                        <p>
+                          Website
+                        </p>
+                      </div>
+                      </div>
+                    </a>
+                  </div>
                   <!-- primal item end -->
 
                    <div class="col-md-6 col-sm-6 custompadding  email">
@@ -196,6 +212,20 @@
                     </div>
                     <!-- primal item end -->
 
+                    <div class="col-md-6 col-sm-6 custompadding  email">
+                    <a href="portfolio-pages/portfolio-email-6037.php" class="primal-portfolio_item">
+                      <img src="assets/portfolio/email/Bell/6037/img-6037.png" alt="image" class="img-responsive" />
+                      <div class="primal-portfolio-overlay">
+                        <div class="primal-overlay-items">
+                        <p>
+                          Email
+                        </p>
+                      </div>
+                      </div>
+                    </a>
+                  </div>
+                  <!-- primal item end -->
+
                     <div class="col-md-6 col-sm-6 custompadding  web">
                       <a href="portfolio-pages/portfolio-web-iwantthat.php" class="primal-portfolio_item">
                         <img src="assets/portfolio/web/i-want-that-contest/img-iwantthat.jpg" alt="image" class="img-responsive" />
@@ -211,8 +241,8 @@
                     <!-- primal item end -->
 
                      <div class="col-md-6 col-sm-6 custompadding  email">
-                      <a href="portfolio-pages/portfolio-email-ppv-august.php" class="primal-portfolio_item">
-                        <img src="assets/portfolio/email/BELL/August/img-ppv-august.png" alt="image" class="img-responsive" />
+                      <a href="portfolio-pages/portfolio-email-ppv.php" class="primal-portfolio_item">
+                        <img src="assets/portfolio/email/BELL/PPV/img-ppv.png" alt="image" class="img-responsive" />
                         <div class="primal-portfolio-overlay">
                           <div class="primal-overlay-items">
                           <p>
@@ -268,19 +298,7 @@
                   <!-- primal item end -->
 
 
-              <div class="col-md-6 col-sm-6 custompadding  web">
-                <a href="portfolio-pages/portfolio-web-csp.php" class="primal-portfolio_item">
-                  <img src="assets/portfolio/web/csp/img-csp.jpg" alt="image" class="img-responsive" />
-                  <div class="primal-portfolio-overlay">
-                    <div class="primal-overlay-items">
-                    <p>
-                      Website
-                    </p>
-                  </div>
-                  </div>
-                </a>
-              </div>
-              <!-- primal item end -->
+              
 
               <div class="col-md-6 col-sm-6 custompadding  email">
                 <a href="portfolio-pages/portfolio-email-5540.php" class="primal-portfolio_item">
@@ -339,7 +357,7 @@
               <!-- primal item end -->
 
               <div class="col-md-6 col-sm-6 custompadding  email">
-                <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
+                <a href="portfolio-pages/portfolio-email-6119.php" class="primal-portfolio_item">
                   <img src="assets/portfolio/email/BELL/6119/img-6119.png" alt="image" class="img-responsive" />
                   <div class="primal-portfolio-overlay">
                     <div class="primal-overlay-items">
