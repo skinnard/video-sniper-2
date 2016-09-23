@@ -58,7 +58,7 @@
                 Creation and continued maintence of the website for the League of Canadian Poets.
               </p>
             <div class="project-images wow fadeInLeft"  data-wow-delay=".4s">
-              <img src="../assets/portfolio/web/poets/img-poets.jpg" alt="project image" />
+              <a href="http://poets.ca" target="blank"><img src="../assets/portfolio/web/poets/img-poets.jpg" alt="project image" /></a>
             </div>
           <div class="col-md-12 text-center">
             <div class="link-back">

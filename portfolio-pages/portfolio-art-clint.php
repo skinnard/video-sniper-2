@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../assets/css/ionicons.min.css"> <!-- Resource style -->
     <link rel="stylesheet" href="../assets/css/animate.css"> <!-- Resource style -->
     <link rel="stylesheet" href="../assets/css/featherlight.min.css"><!-- Resource style -->
+    <link rel="stylesheet" href="../assets/css/featherlight.gallery.min.css"><!-- Resource style -->
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/user-style.css">
   </head>
@@ -39,13 +40,7 @@
       <!-- <section id="project-images" class="left-section">
       </section> -->
       <section class="full-width">
-      <div class="lightbox" id="fl1">
-        <h2>Featherlight Default</h2>
-        <p>
-          This is a default featherlight lightbox.<br>
-          It's flexible in height and width.<br>
-          Everything that is used to display and style the box can be found in the <a href="https://github.com/noelboss/featherlight/blob/master/src/featherlight.css">featherlight.css</a> file which is pretty simple.</p>
-      </div>
+      
         <a href="#" class="logo hidden-xs hidden-sm"><img src="../assets/images/logo.png" width="35" height="35" alt="Logo" /></a>
           <div class="portfolio-single">
             <div class="project-details">
@@ -55,7 +50,9 @@
                 Digital portrait. Photoshop and illustrator used in creation. 
               </p>
             <div class="project-images wow fadeInLeft"  data-wow-delay=".4s">
-            <a href="#" data-featherlight="#fl1"><img src="../assets/portfolio/art/clint.jpg" alt="project image" /></a>
+
+              <img src="../assets/portfolio/art/clint.jpg" alt="project image" />
+
             </div>
           <div class="col-md-12 text-center">
             <div class="link-back">
@@ -80,11 +77,13 @@
 
 <!-- Jquery and Js Plugins -->
     <script type="text/javascript" src="../assets/js/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="../assets/js/featherlight.min.js"></script>
+    <script type="text/javascript" src="../assets/js/featherlight.gallery.min.js"></script>
     <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../assets/js/plugins.js"></script>
     <script type="text/javascript" src="../assets/js/menu.js"></script>
     <script type="text/javascript" src="../assets/js/custom.js"></script>
-<script type="text/javascript" src="../assets/js/featherlight.min.js"></script>
+
 
   </body>
 </html>

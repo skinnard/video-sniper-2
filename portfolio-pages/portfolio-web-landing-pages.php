@@ -48,7 +48,7 @@
                 Creation and continued maintence of landing pages for a Bell Canada promotion.
               </p>
             <div class="project-images wow fadeInLeft"  data-wow-delay=".4s">
-              <img src="../assets/portfolio/web/landing-pages/img-landing-pages.jpg" alt="project image" />
+              <a href="../assets/portfolio/web/landing-pages/" target="blank"></a><img src="../assets/portfolio/web/landing-pages/img-landing-pages.jpg" alt="project image" />
             </div>
           <div class="col-md-12 text-center">
             <div class="link-back">

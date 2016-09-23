@@ -48,7 +48,7 @@
                 Created a site where Bell employees can quickly check and reference new and old creative.
               </p>
             <div class="project-images wow fadeInLeft"  data-wow-delay=".4s">
-              <a href="../assets/portfolio/web/csp/"><img src="../assets/portfolio/web/csp/img-csp.jpg" alt="project image" /></a>
+              <a href="../assets/portfolio/web/csp/" target="blank"><img src="../assets/portfolio/web/csp/img-csp.jpg" alt="project image" /></a>
             </div>
           <div class="col-md-12 text-center">
             <div class="link-back">

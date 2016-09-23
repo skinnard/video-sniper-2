@@ -48,7 +48,7 @@
                 Website for therapist Kristen Hodges. 
               </p>
             <div class="project-images wow fadeInLeft"  data-wow-delay=".4s">
-              <img src="../assets/portfolio/web/kh/img-kh.jpg" alt="project image" />
+              <a href="http://kristenhodges.com" target="blank"><img src="../assets/portfolio/web/kh/img-kh.jpg" alt="project image" /></a>
             </div>
           <div class="col-md-12 text-center">
             <div class="link-back">

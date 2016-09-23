@@ -48,7 +48,7 @@
                 Website for the annual I Want That contest for The Source Canada.
               </p>
             <div class="project-images wow fadeInLeft"  data-wow-delay=".4s">
-              <a href="../assets/portfolio/web/i-want-that-contest/"><img src="../assets/portfolio/web/i-want-that-contest/img-iwantthat.jpg" alt="project image" /></a>
+              <a href="../assets/portfolio/web/i-want-that-contest/" target="blank"><img src="../assets/portfolio/web/i-want-that-contest/img-iwantthat.jpg" alt="project image" /></a>
             </div>
           <div class="col-md-12 text-center">
             <div class="link-back">

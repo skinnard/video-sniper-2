@@ -58,8 +58,8 @@
                 Website for Mind Your Manners dog walking. 
               </p>
             <div class="project-images wow fadeInLeft"  data-wow-delay=".4s">
-              <img src="../assets/portfolio/web/mym/img-mym.jpg" alt="project image" />
-            </div>
+              <a href="http://mindyourmanners.ca" target="blank"><img src="../assets/portfolio/web/mym/img-mym.jpg" alt="project image" />
+            </div></a>
           <div class="col-md-12 text-center">
             <div class="link-back">
             <a class="link-back" href="../portfolio-filter.php"><i class="ion-android-apps"></i></a>

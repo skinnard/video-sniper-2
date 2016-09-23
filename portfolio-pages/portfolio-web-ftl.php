@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ target="blank"<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -48,7 +48,7 @@
                 Website and continued maintence for Follow the Leader dog training school.
               </p>
             <div class="project-images wow fadeInLeft"  data-wow-delay=".4s">
-              <a href="http://followtheleaderinc.com"><img src="../assets/portfolio/web/ftl/img-ftl.jpg" alt="project image" /></a>
+              <a href="http://followtheleaderinc.com" target="blank"><img src="../assets/portfolio/web/ftl/img-ftl.jpg" alt="project image" /></a>
             </div>
           <div class="col-md-12 text-center">
             <div class="link-back">

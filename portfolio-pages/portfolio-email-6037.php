@@ -48,7 +48,7 @@
                 Responive email for Bell Canada.
               </p>
             <div class="project-images wow fadeInLeft"  data-wow-delay=".4s">
-              <a href="../assets/portfolio/email/Bell/6037/index.html"><img src="../assets/portfolio/email/Bell/6037/img-6037-large.png" alt="project image" /></a>
+              <a href="../assets/portfolio/email/Bell/6037/index.html" target="blank"><img src="../assets/portfolio/email/Bell/6037/img-6037-large.png" alt="project image" /></a>
             </div>
           <div class="col-md-12 text-center">
             <div class="link-back">

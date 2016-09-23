@@ -58,7 +58,7 @@
                 Website for The Handsome Devils band.
               </p>
             <div class="project-images wow fadeInLeft"  data-wow-delay=".4s">
-              <img src="../assets/portfolio/web/thd-img-thd.jpg" alt="project image" />
+              <a href="http://thehandsomedevils.ca" target="blank"><img src="../assets/portfolio/web/thd-img-thd.jpg" alt="project image" /></a>
             </div>
           <div class="col-md-12 text-center">
             <div class="link-back">

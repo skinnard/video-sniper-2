@@ -48,7 +48,7 @@
                 Responsive email for Bank of Montreal. Dynamic versions deployed through Exact Target.
               </p>
             <div class="project-images wow fadeInLeft"  data-wow-delay=".4s">
-              <a href="../assets/portfolio/email/BMO/index.html"><img src="../assets/portfolio/email/BMO/img-5865-large.png" alt="project image" /></a>
+              <a href="../assets/portfolio/email/BMO/index.html" target="blank"><img src="../assets/portfolio/email/BMO/img-5865-large.png" alt="project image" /></a>
             </div>
           <div class="col-md-12 text-center">
             <div class="link-back">
