@@ -661,9 +661,8 @@ h1, h2, h3, h4, h5, h6 {
 ------ Homepage Split Layout Styling Starts ---------
 ---------------------------------------------------*/
 
-
 .left-section {
-    background: url(../images/glen_pills_BW.png) no-repeat center center;
+    background: url(../images/bg.gif);
 		background-size: cover;
 		position: absolute;
     left: 0;
@@ -1553,6 +1552,12 @@ label {
 				margin-left: 0px;
 				margin-bottom: 20px;
 		}
+    .left-section {
+      display: none;
+    }
+    .right-section {
+      position: absolute;
+    }
 	}
 
 /* --------------------------------------------------

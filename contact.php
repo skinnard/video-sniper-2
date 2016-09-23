@@ -46,7 +46,7 @@
     <!-- Homepage Main Section-->
   <div class="main">
     <section class="split-home">
-      <section class="left-section wow fadeIn" data-wow-delay=".2s">
+      <section class="left-section-3 wow fadeIn" data-wow-delay=".2s">
         </section>
         <section class="right-section">
         <a href="#" class="logo hidden-xs hidden-sm"><img src="assets/images/logo.png" width="35" height="35" alt="Logo" /></a>

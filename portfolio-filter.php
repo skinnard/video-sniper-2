@@ -113,7 +113,7 @@
                   <!-- primal item end -->  
 
                   <div class="col-md-6 col-sm-6 custompadding  web">
-                    <a href="portfolio-pages/portfolio-web-iwantthat.php" class="primal-portfolio_item">
+                    <a href="portfolio-pages/portfolio-web-thd.php" class="primal-portfolio_item">
                       <img src="assets/portfolio/web/thd/img-thd.jpg" alt="image" class="img-responsive" />
                       <div class="primal-portfolio-overlay">
                         <div class="primal-overlay-items">
@@ -144,7 +144,7 @@
 
                   <!-- primal item -->
                     <div class="col-md-6 col-sm-6 custompadding  art">
-                      <a href="portfolio-pages/portfolio-art-jon.php" class="primal-portfolio_item">
+                      <a href="portfolio-pages/portfolio-art-old-man.php" class="primal-portfolio_item">
                         <img src="assets/portfolio/art/old_man.jpg" alt="image" class="img-responsive" />
                         <div class="primal-portfolio-overlay">
                           <div class="primal-overlay-items">
@@ -448,6 +448,7 @@
     <script type="text/javascript" src="assets/js/menu.js"></script>
     <script type="text/javascript" src="assets/js/custom.js"></script>
     <script type="text/javascript" src="assets/js/featherlight.min.js"></script>
+    <script src='http://imagesloaded.desandro.com/imagesloaded.pkgd.js'></script>
     <script type="text/javascript">
     new WOW().init();
     </script>

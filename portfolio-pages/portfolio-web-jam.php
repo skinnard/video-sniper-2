@@ -48,7 +48,7 @@
                 Website for Jam Direct agency. 
               </p>
             <div class="project-images wow fadeInLeft"  data-wow-delay=".4s">
-              <a href="htp://jamdirect.ca" target="blank"><img src="../assets/portfolio/web/jam/img-jam.jpg" alt="project image" /></a>
+              <a href="http://jamdirect.ca" target="blank"><img src="../assets/portfolio/web/jam/img-jam.jpg" alt="project image" /></a>
             </div>
           <div class="col-md-12 text-center">
             <div class="link-back">

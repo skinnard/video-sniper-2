@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>About</title>
+    <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
     <link href='https://fonts.googleapis.com/css?family=Poppins:400,600,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Work+Sans:600,500,400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="assets/css/justifiedGallery.min.css"> <!-- Resource style -->
@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="assets/css/ionicons.min.css"> <!-- Resource style -->
     <link rel="stylesheet" href="assets/css/animate.css"> <!-- Resource style -->
     <link rel="stylesheet" href="assets/css/featherlight.min.css"><!-- Resource style -->
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="assets/css/user-style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/featherlight.gallery.min.css"><!-- Resource style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/user-style.css">
   </head>
   <body>
 
@@ -37,7 +38,7 @@
   <!-- Homepage Main Section-->
   <div class="main">
     <section class="split-home">
-      <section class="left-section wow fadeIn" data-wow-delay=".2s">
+      <section class="left-section-2 wow fadeIn" data-wow-delay=".2s">
       </section>
       <section class="right-section">
         <a href="#" class="logo hidden-xs hidden-sm"><img src="assets/images/logo.png" width="35" height="35" alt="Logo" /></a>

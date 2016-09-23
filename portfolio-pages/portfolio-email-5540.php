@@ -48,7 +48,7 @@
                 Responsive email for Toyota Canada. Dynamic versions deployed through Exact Target.  
               </p>
             <div class="project-images wow fadeInLeft"  data-wow-delay=".4s">
-              <a href="../assets/portfolio/email/Toyota/index-en.html" target="blank"><img src="../assets/portfolio/email/Toyota/img-5540-large.png" alt="project image" /></a>
+              <a href="../assets/portfolio/email/Toyota/index.html" target="blank"><img src="../assets/portfolio/email/Toyota/img-5540-large.png" alt="project image" /></a>
             </div>
           <div class="col-md-12 text-center">
             <div class="link-back">

@@ -89,6 +89,18 @@ $('.primal-portfolio_filter a').on('click', function () {
 
 $container.isotope('layout');
 
+/*=============Code for Masonry Gallery ==============*/
+    var grid = document.querySelector('.grid');
+    var jQuerygrid = jQuery('.grid').isotope({
+        itemSelector: '.element-item'
+    }); 
+    var iso = jQuerygrid.data('isotope');
+    jQuerygrid.isotope( 'reveal', iso.items );
+
+    imagesLoaded(grid, function(){
+        iso.layout();
+    });
+
 
 
 /* ---- particles.js config ---- */

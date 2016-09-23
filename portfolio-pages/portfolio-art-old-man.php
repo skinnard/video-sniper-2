@@ -48,7 +48,7 @@
                 Acrylic on wood panel portrait. 
               </p>
             <div class="project-images wow fadeInLeft"  data-wow-delay=".4s">
-              <img src="../assets/portfolio/art/old-man.jpg" alt="project image" />
+              <img src="../assets/portfolio/art/old_man.jpg" alt="project image" />
             </div>
           <div class="col-md-12 text-center">
             <div class="link-back">
