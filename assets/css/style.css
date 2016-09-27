@@ -691,7 +691,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .particles-background {
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/bg.jpg) no-repeat center center;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/beach.jpg) no-repeat center center;
 	background-size: cover;
 	position: absolute;
 	left: 0;

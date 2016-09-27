@@ -31,3 +31,7 @@
     overflow: hidden;
     z-index: 1;
 }
+
+.right-section {
+    position: absolute; 
+}
