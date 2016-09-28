@@ -31,3 +31,73 @@
     overflow: hidden;
     z-index: 1;
 }
+
+/*ABOUT PAGE*/
+
+.split-about-experience ul {
+  padding: 50px 0 0 0;
+}
+
+.skills-wrapper {
+    margin-bottom:30px;
+}
+
+.skills {
+    margin-top:30px;
+}
+
+.software-wrapper {
+    margin-bottom:30px;
+}
+
+.software {
+    margin-top:30px;
+}
+
+.skills,
+.software,
+.clients {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.skills-grid,
+.software-grid {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.clients-grid {
+    margin: 0 10px;
+    width: 70px;
+    height: 70px;
+}
+
+@media only screen and (max-width: 420px) {
+
+
+    .skills-wrapper,
+    .software-wrapper,
+    .clients-wrapper {
+        text-align: center;
+    }
+
+    .skills-wrapper h3,
+    .software-wrapper h3,
+    .clients-wrapper h3 {
+        text-align: left;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+

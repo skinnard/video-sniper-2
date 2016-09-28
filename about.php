@@ -48,14 +48,50 @@
             <h1 class="wow fadeInLeft"  data-wow-delay=".2s">Glen Hodges</h1>
             <span class="wow fadeInLeft"  data-wow-delay=".3s">Web Developer</span>
             <p class="wow fadeInLeft"  data-wow-delay=".3s">
-              I am obsessed with learning new things. New technologies, new techinques and new skills. I am a web designer with one foot in the future and one firmly in the past. I love woodworking, cycling and coffee. I have 6 month old twins that are the light of my life and a wife that will never let me give&nbsp;up. 
+              I'm a front-end developer and designer with a wide skillset ranging from coding to animation to fine art. My  education is in media arts and fine art. My interest in coding I love to learn new skills, software and practices. If you're looking for someone who can jump between disclipines and has a keep eye for pixel perfect visuals, feel free to give me a shout.
             </p>
+            
+            <div class="skills-wrapper">
+              <h3 class="skills">Skills</h3>
+              <img class="skills-grid" src="assets/images/logos/html.png">
+              <img class="skills-grid" src="assets/images/logos/css.png">
+              <img class="skills-grid" src="assets/images/logos/js.png">
+              <img class="skills-grid" src="assets/images/logos/jquery.png">
+              <img class="skills-grid" src="assets/images/logos/sass.png">
+              <img class="skills-grid" src="assets/images/logos/php.png">
+              <img class="skills-grid" src="assets/images/logos/wordpress.png">
+              <img class="skills-grid" src="assets/images/logos/jade.png">
+              <img class="skills-grid" src="assets/images/logos/jekyll.png">
+              <img class="skills-grid" src="assets/images/logos/bootstrap.png">
+            </div>
+            <div class="software-wrapper">
+              <h3 class="software">Software</h3>
+              <img class="software-grid" src="assets/images/logos/photoshop.png">
+              <img class="software-grid" src="assets/images/logos/illustrator.png">
+              <img class="software-grid" src="assets/images/logos/aftereffects.png">
+              <img class="software-grid" src="assets/images/logos/edge.png">
+              <img class="software-grid" src="assets/images/logos/premier.png">
+              <img class="software-grid" src="assets/images/logos/sublime.png">
+              <img class="software-grid" src="assets/images/logos/dreamweaver.png">
+              <img class="software-grid" src="assets/images/logos/pt.png">
+              <img class="software-grid" src="assets/images/logos/reason.png">
+            </div>
+            <div class="clients-wrapper">
+              <h3 class="clients">Clients</h3>
+              <img class="clients-grid" src="assets/images/logos/bell.png">
+              <img class="clients-grid" src="assets/images/logos/bmo.png">
+              <img class="clients-grid" src="assets/images/logos/lexus.png">
+              <img class="clients-grid" src="assets/images/logos/toyota.png">
+              <img class="clients-grid" src="assets/images/logos/scion.png">
+              <img class="clients-grid" src="assets/images/logos/source.png">
+              <img class="clients-grid" src="assets/images/logos/jb.png">
+            </div>
             <div class="split-about-experience">
-						<h4 class="wow fadeInLeft" data-wow-delay=".4s">Work and Experience</h4>
+						<h4>Work and Experience</h4>
 						<ul>
 							<li>
-								<h3 class="wow fadeInLeft" data-wow-delay=".5s">Web Developer - Jam Direct</h3>
-								<p class="wow fadeInLeft" data-wow-delay=".6s">
+								<h3>Web Developer - Jam Direct</h3>
+								<p>
 									I work on the ever challenge tast of email coding. Old coding techniques mixed with new technologies proves challenging and interesting. <br class="hidden-xs"> I also design, make gifs, work on web sites, create HTML 5 ads and so much more. 
 								</p>
 								<h6>2014 - Present</h6>

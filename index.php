@@ -56,8 +56,8 @@
       <a href="#" class="logo hidden-xs hidden-sm"><img src="assets/images/logo.png" width="35" height="35" alt="Logo" /></a>
       <div class="intro-personal">
         <div class="intro-text">
-          <h1 class="wow fadeInDown" data-wow-delay=".1s">Hi, my name is<br>Glen Hodges.</h1>
-          <h3 class="wow fadeInDown">I&rsquo;m a desginer, developer, artist and all-round nice guy. My strength is a wide range of talents from art to music to woodworking. Feel free to check out my&nbsp;work.</h3>
+          <h1 class="wow fadeInDown" data-wow-delay=".1s">GLEN HODGES</h1>
+          <h3 class="wow fadeInDown">I&rsquo;m a desginer, developer, artist and all-round nice guy.</h3>
           <a href="portfolio-filter.php" class="btn-contact wow fadeIn" data-wow-delay=".2s">See My Work</a>
         </div>
       </div>
