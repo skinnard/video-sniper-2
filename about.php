@@ -48,7 +48,7 @@
             <h1 class="wow fadeInLeft"  data-wow-delay=".2s">Glen Hodges</h1>
             <span class="wow fadeInLeft"  data-wow-delay=".3s">Web Developer</span>
             <p class="wow fadeInLeft"  data-wow-delay=".3s">
-              I'm a front-end developer and designer with a wide skillset ranging from coding to animation to fine art. My  education is in media arts and fine art. My interest in coding I love to learn new skills, software and practices. If you're looking for someone who can jump between disclipines and has a keep eye for pixel perfect visuals, feel free to give me a shout.
+              I&rsquo;m a front-end developer and designer with a wide skillset ranging from coding to animation to fine art. My  education is in media and fine arts. I&rsquo;m a self taught coder with a passion for learning new skills, software and practices. If you&rsquo;re looking for someone who can jump between disclipines and has a keen eye for pixel perfect visuals, feel free to give me a&nbsp;shout.
             </p>
             
             <div class="skills-wrapper">
