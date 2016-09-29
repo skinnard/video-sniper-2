@@ -92,6 +92,11 @@
     height: 70px;
 }
 
+textarea.form-control {
+    height: auto;
+    font-family: Poppins;
+    color: #888DA1;
+}
 
 
 @media only screen and (max-width: 420px) {
