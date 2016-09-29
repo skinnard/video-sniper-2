@@ -72,7 +72,8 @@
 </div><!-- Wrapper -->
 
 <!-- Jquery and Js Plugins -->
-    <script type="text/javascript" src="../assets/js/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-2.1.1.js"></script>
+    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
     <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../assets/js/plugins.js"></script>
     <script type="text/javascript" src="../assets/js/menu.js"></script>

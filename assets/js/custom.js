@@ -67,39 +67,44 @@ $('#left-slides').vegas({
 ------- Isotope Init -------
 -----------------------------*/
 
-var $container = $('.portfolio_container');
-$container.isotope({
-	filter: '*',
+$('.portfolio_container').imagesLoaded( function() {
+
+  var $container = $('.portfolio_container');
+  $container.isotope({
+  	filter: '*',
+  });
+
+  $('.primal-portfolio_filter a').on('click', function () {
+  	$('.primal-portfolio_filter .active').removeClass('active');
+  	$(this).addClass('active');
+
+  	var selector = $(this).attr('data-filter');
+  	$container.isotope({
+  			filter: selector,
+  			animationOptions: {
+  					duration: 500,
+  					animationEngine: "jquery"
+  			}
+  	});
+  	return false;
+  });
+
+  $container.isotope('layout');
+
+  /*=============Code for Masonry Gallery ==============*/
+
+  var grid = document.querySelector('.grid');
+  var jQuerygrid = jQuery('.grid').isotope({
+      itemSelector: '.element-item'
+  }); 
+  var iso = jQuerygrid.data('isotope');
+  jQuerygrid.isotope( 'reveal', iso.items );
+
+  imagesLoaded(grid, function(){
+      iso.layout();
+  });
+
 });
-
-$('.primal-portfolio_filter a').on('click', function () {
-	$('.primal-portfolio_filter .active').removeClass('active');
-	$(this).addClass('active');
-
-	var selector = $(this).attr('data-filter');
-	$container.isotope({
-			filter: selector,
-			animationOptions: {
-					duration: 500,
-					animationEngine: "jquery"
-			}
-	});
-	return false;
-});
-
-$container.isotope('layout');
-
-/*=============Code for Masonry Gallery ==============*/
-    var grid = document.querySelector('.grid');
-    var jQuerygrid = jQuery('.grid').isotope({
-        itemSelector: '.element-item'
-    }); 
-    var iso = jQuerygrid.data('isotope');
-    jQuerygrid.isotope( 'reveal', iso.items );
-
-    imagesLoaded(grid, function(){
-        iso.layout();
-    });
 
 
 
