@@ -789,7 +789,7 @@
                content.clone(true).appendTo(self.elements.content).show();
 
             // Content is a regular string, insert the new content
-            else self.elements.content.html(content);
+            else self.elements.content.php(content);
 
             // Check if images need to be loaded before position is updated to prevent mis-positioning
             images = self.elements.content.find('img[complete=false]');
@@ -874,7 +874,7 @@
 
             // Set the new content and reappend the button if enabled
             if(self.elements.button) self.elements.button = self.elements.button.clone(true);
-            self.elements.title.html(content)
+            self.elements.title.php(content)
             if(self.elements.button) self.elements.title.prepend(self.elements.button);
 
             // Call API method and log event
@@ -1320,7 +1320,7 @@
 	    };
 
 	    // Attach new tip to tooltip element
-	    self.elements.tip.html(tipobject);
+	    self.elements.tip.php(tipobject);
 	    self.elements.tooltip.prepend(self.elements.tip);
 
 	    // Create element reference and draw the canvas tip (Delayed til after DOM creation)
@@ -1454,7 +1454,7 @@
       {
          self.elements.button = $('<a class="'+self.options.style.classes.button+'" style="float:right; position: relative"></a>')
             .css( jQueryStyle(self.options.style.button, true) )
-            .html(self.options.content.title.button)
+            .php(self.options.content.title.button)
             .prependTo(self.elements.title)
             .click(function(event){ if(!self.status.disabled) self.hide(event) });
       };

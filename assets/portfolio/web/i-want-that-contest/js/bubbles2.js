@@ -262,7 +262,7 @@ $(document).ready(function () {
             var thing = $(this),
                 val = count
                 count += 1
-            thing.html(val)
+            thing.php(val)
         });
             
         $($("#selections ul li.empty")[0]).addClass('active');

@@ -39,9 +39,9 @@ $month = end($months);
       <li class="month-list-parent">
         <i class="fa fa-caret-down"></i>
         <p id="month"><?php echo ucfirst($month); ?></p>
-          <?php include('years/' . $year . '.html'); ?>
+          <?php include('years/' . $year . '.php'); ?>
       </li>
     </ul>
   </div>
-  <?php include('months/'.$year.'/'.$month.'.html'); ?>
+  <?php include('months/'.$year.'/'.$month.'.php'); ?>
 </div>

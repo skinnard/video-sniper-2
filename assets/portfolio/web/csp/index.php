@@ -15,7 +15,7 @@
     </div>
     <div class="content-wrapper">
       <div id="content">
-        <?php include('projects/'.$year.'/'.$month.'/5139_Oct_NBR_Fibe_FTTH_DM_EN.html'); ?>
+        <?php include('projects/'.$year.'/'.$month.'/5139_Oct_NBR_Fibe_FTTH_DM_EN.php'); ?>
       </div>
     </div>
   </div>

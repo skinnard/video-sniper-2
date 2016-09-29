@@ -150,7 +150,7 @@
 <p>Having trouble? <a id="trouble" href="#">Enter here</a>.<br />
 
     <a href="index.php" target="_top">Fran&ccedil;ais</a>
-    &#8226; <a href="rules.html" target="_blank">Contest Rules and Regulations</a>
+    &#8226; <a href="rules.php" target="_blank">Contest Rules and Regulations</a>
     &#8226; <a href="#" target="_blank">Our Privacy Policy</a>
     &#8226; <a href="#" target="_blank">thesource.ca</a>
 </p>        </div><!-- END #footer -->
@@ -184,7 +184,7 @@
 
     twttr.ready(function (twttr) {
         twttr.events.bind('tweet', function(){
-            $('.share-col-two').html('Posting completed.').load('submitshare.php', {customerID: "", share: "Twitter"});
+            $('.share-col-two').php('Posting completed.').load('submitshare.php', {customerID: "", share: "Twitter"});
         });
     });
 
@@ -199,7 +199,7 @@ function postToFeed(){
         description: description
     }, function(response){if (response && !response.error_code) {
       // alert('Posting completed.');
-      $('.share-col-one').html('Posting completed.').load('submitshare.php', {customerID: "", share: "Facebook"});
+      $('.share-col-one').php('Posting completed.').load('submitshare.php', {customerID: "", share: "Facebook"});
     } else {
       return false
       // 'Error while posting.'

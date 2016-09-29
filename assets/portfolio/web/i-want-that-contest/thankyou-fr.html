@@ -43,7 +43,7 @@
 
     <div id="header-bar">
         <div class="inner">
-            <a href="index-fr.html">
+            <a href="index-fr.php">
             <img src="img/fr/logo.png" width="140" height="41" alt="La Source - C&rsquo;est ce que je veux" /> <a id="how-to-play-btn" href="#">Comment &ccedil;a fonctionne</a></div>
         </a>
     </div>
@@ -199,7 +199,7 @@
         <p>Vous avez de la difficult&eacute;? <a id="trouble" href="#">Participez ici</a>.
             <br />
 
-            <a href="index.php" target="_top">English</a> &#8226; <a href="rules-fr.html" target="_blank">R&egrave;glements du concours</a> &#8226; <a href="#" target="_blank">Notre politique de confidentialit&eacute;eacute;</a> &#8226; <a href="#" target="_blank">lasource.ca</a>
+            <a href="index.php" target="_top">English</a> &#8226; <a href="rules-fr.php" target="_blank">R&egrave;glements du concours</a> &#8226; <a href="#" target="_blank">Notre politique de confidentialit&eacute;eacute;</a> &#8226; <a href="#" target="_blank">lasource.ca</a>
         </p>
     </div>
     <!-- END #footer -->
@@ -244,7 +244,7 @@
 
         twttr.ready(function(twttr) {
             twttr.events.bind('tweet', function() {
-                $('.share-col-two').html('Enregistrement complété.').load('submitshare.php', {
+                $('.share-col-two').php('Enregistrement complété.').load('submitshare.php', {
                     customerID: "",
                     share: "Twitter"
                 });
@@ -266,7 +266,7 @@
             }, function(response) {
                 if (response && !response.error_code) {
                     // alert('Enregistrement complété.');
-                    $('.share-col-one').html('Enregistrement complété.').load('submitshare.php', {
+                    $('.share-col-one').php('Enregistrement complété.').load('submitshare.php', {
                         customerID: "",
                         share: "Facebook"
                     });

@@ -26,20 +26,20 @@
 			<!-- Navigation! -->
 
 			<ul id="nav">
-				<li class="list our_team non-button"><a href="our_team.html">Our Team</a></li>
-				<li class="list services non-button"><a href="services.html">Services</a>
+				<li class="list our_team non-button"><a href="our_team.php">Our Team</a></li>
+				<li class="list services non-button"><a href="services.php">Services</a>
 					<ul>
-						<li><a href="group_walks.html">Group Walks</a></li>
-						<li><a href="puppy_visits.html">Puppy Visits</a></li>
-						<li><a href="boarding.html">Boarding</a></li>
+						<li><a href="group_walks.php">Group Walks</a></li>
+						<li><a href="puppy_visits.php">Puppy Visits</a></li>
+						<li><a href="boarding.php">Boarding</a></li>
 					</ul>
 				</li>
-				<li class="list about non-button"><a href="about.html">Why Us?</a></li>
+				<li class="list about non-button"><a href="about.php">Why Us?</a></li>
 				<a href="https://www.facebook.com/pages/Mind-Your-Manners-Dog-Walking/200158867525?sk=photos_stream" target="blank" title="Visit Us on Facebook!"><li class="list facebook non-button"></li></a>
 			</ul>
 
 			<div id="contact_div">
-				<a href="contact.html" class="contact btn-contact">Contact</a>
+				<a href="contact.php" class="contact btn-contact">Contact</a>
 			</div>
 			
 			
@@ -58,7 +58,7 @@
 			<div id="intro" class="grid_6"> <!-- Intro Paragraph -->
 				<h1>We all know that exercise is the first building block to ensuring a well behaved dog.<br />  
 					With Mind Your Manners your dog will come home every day feeling exhausted and happy…who wouldn’t want that?!</h1>
-				<p><a href="contact.html" class="btn">Contact Us</a></p>
+				<p><a href="contact.php" class="btn">Contact Us</a></p>
 			</div>
 			 
 			<div id="walkers" class="grid_3"> 
@@ -71,7 +71,7 @@
 					
 				<div id="group_walks" class="content_logos"> <!-- Group Walks Logo DIV-->
 
-					<a href="group_walks.html" class="circle_logos">
+					<a href="group_walks.php" class="circle_logos">
 					<img src="img/group.png" alt="Group Walks Logo"></a>
 					<p class="logo_txt">Group Walks</p>
 
@@ -79,14 +79,14 @@
 
 				<div id="puppy_visits" class="content_logos">
 
-					<a href="puppy_visits.html" class="circle_logos"><img src="img/puppy.png" alt="Puppy Visits Logo"></a>
+					<a href="puppy_visits.php" class="circle_logos"><img src="img/puppy.png" alt="Puppy Visits Logo"></a>
 					<p class="logo_txt">Puppy Visits</p>
 
 				</div>
 							
 				<div id="boarding" class="content_logos">
 
-					<a href="boarding.html" class="circle_logos"><img src="img/boarding.png" alt="Puppy Visits Logo"></a>
+					<a href="boarding.php" class="circle_logos"><img src="img/boarding.png" alt="Puppy Visits Logo"></a>
 					<p class="logo_txt">Boarding</p>
 
 				</div>

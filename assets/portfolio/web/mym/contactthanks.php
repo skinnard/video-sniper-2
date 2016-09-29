@@ -26,20 +26,20 @@
 			<!-- Navigation! -->
 
 			<ul id="nav">
-				<li class="list our_team non-button"><a href="our_team.html">Our Team</a></li>
-				<li class="list services non-button"><a href="services.html">Services</a>
+				<li class="list our_team non-button"><a href="our_team.php">Our Team</a></li>
+				<li class="list services non-button"><a href="services.php">Services</a>
 					<ul>
-						<li><a href="group_walks.html">Group Walks</a></li>
-						<li><a href="puppy_visits.html">Puppy Visits</a></li>
-						<li><a href="boarding.html">Boarding</a></li>
+						<li><a href="group_walks.php">Group Walks</a></li>
+						<li><a href="puppy_visits.php">Puppy Visits</a></li>
+						<li><a href="boarding.php">Boarding</a></li>
 					</ul>
 				</li>
-				<li class="list about non-button"><a href="about.html">Why Us?</a></li>
+				<li class="list about non-button"><a href="about.php">Why Us?</a></li>
 				<a href="https://www.facebook.com/pages/Mind-Your-Manners-Dog-Walking/200158867525?sk=photos_stream" target="blank" title="Visit Us on Facebook!"><li class="list facebook non-button"></li></a>
 			</ul>
 
 			<div id="contact_div">
-				<a href="contact.html" class="contact btn-contact">Contact</a>
+				<a href="contact.php" class="contact btn-contact">Contact</a>
 			</div>
 			
 			

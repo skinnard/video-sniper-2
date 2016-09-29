@@ -25,7 +25,7 @@ jQuery(document).ready(function($) {
     setAutoTab('txtPostal1', 'txtPostal2', 3);
 
     $('#appForm').bind('invalid-form.validate', function() {
-		$('#summary').html(ERROR_SUMMARY);
+		$('#summary').php(ERROR_SUMMARY);
 	}).validate({
         ignore: [],
         errorPlacement: function(error, element) {

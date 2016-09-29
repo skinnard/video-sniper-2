@@ -75,7 +75,7 @@ function loadYear(year) {
 													if(result)
 													{
 															$('.month-list').hide().replaceWith(result);
-															$('#month').html('MONTH');
+															$('#month').php('MONTH');
 													}
 											}
 		});
@@ -92,7 +92,7 @@ function loadMonth(year, month) {
 													{
 														$('.thumbnails').fadeOut(250,
 															function(){
-																$(this).html(result).css({
+																$(this).php(result).css({
 																	display: 'block',
 																	opacity: 0
 																});
@@ -123,7 +123,7 @@ function loadPage(year, month, project) {	// Ajax that does the loading
 																$('.content-wrapper').animate({
 																	scrollTop: 0
 																}, function(){
-																	$('#content').html(result).fadeIn(350);
+																	$('#content').php(result).fadeIn(350);
 																	return;
 																});
 															});
@@ -291,12 +291,12 @@ jQuery(document).ready(function($) {
 	//REPLACE TEXT IN YEAR/MONTH DROPDOWN MENU HEADER WHEN CLICKED
 	$('.year-list li a').click(function(){
 		var text = $(this).text();
-		$('#year').html(text);
+		$('#year').php(text);
 	});
 
 	$('.month-list-parent').on("click", ".month-li", function (){
 		var text = $(this).text();
-		$('#month').html(text);
+		$('#month').php(text);
 	});
 
 

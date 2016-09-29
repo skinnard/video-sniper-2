@@ -215,7 +215,7 @@
   }
 
   Validator.prototype.showErrors = function ($el) {
-    var method = this.options.html ? 'html' : 'text'
+    var method = this.options.php ? 'html' : 'text'
     var errors = $el.data('bs.validator.errors')
     var $group = $el.closest('.form-group')
     var $block = $group.find('.help-block.with-errors')
@@ -227,7 +227,7 @@
       .addClass('list-unstyled')
       .append($.map(errors, function (error) { return $('<li/>')[method](error) }))
 
-    $block.data('bs.validator.originalContent') === undefined && $block.data('bs.validator.originalContent', $block.html())
+    $block.data('bs.validator.originalContent') === undefined && $block.data('bs.validator.originalContent', $block.php())
     $block.empty().append(errors)
     $group.addClass('has-error has-danger')
 
@@ -242,7 +242,7 @@
     var $block = $group.find('.help-block.with-errors')
     var $feedback = $group.find('.form-control-feedback')
 
-    $block.html($block.data('bs.validator.originalContent'))
+    $block.php($block.data('bs.validator.originalContent'))
     $group.removeClass('has-error has-danger')
 
     $group.hasClass('has-feedback')
@@ -308,7 +308,7 @@
 
       $this
         .removeData('bs.validator.originalContent')
-        .html(originalContent)
+        .php(originalContent)
     })
 
     this.$element.find('input[type="submit"], button[type="submit"]').removeClass('disabled')

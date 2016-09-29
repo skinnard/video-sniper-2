@@ -32,6 +32,20 @@
     z-index: 1;
 }
 
+.particles-background {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../images/space.jpg) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
 .right-section {
     position: absolute; 
 }

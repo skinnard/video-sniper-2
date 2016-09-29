@@ -2,7 +2,7 @@
 
 $year = $_POST['year'];
 
-if(file_exists('../../years/'.$year.'.html'))
-echo file_get_contents('../../years/'.$year.'.html');
+if(file_exists('../../years/'.$year.'.php'))
+echo file_get_contents('../../years/'.$year.'.php');
 
 ?>
