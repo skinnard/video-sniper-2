@@ -11,9 +11,8 @@
     <link rel="stylesheet" href="assets/css/lightcase.css"> <!-- Resource style -->
     <link rel="stylesheet" href="assets/css/ionicons.min.css"> <!-- Resource style -->
     <link rel="stylesheet" href="assets/css/animate.css"> <!-- Resource style -->
-    <link rel="stylesheet" href="assets/css/featherlight.min.css"><!-- Resource style -->
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="assets/css/user-style.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="assets/css/user-style.css" type="text/css" media="all" />
   </head>
   <body>
 
@@ -447,8 +446,7 @@
     <script type="text/javascript" src="assets/js/plugins.js"></script>
     <script type="text/javascript" src="assets/js/menu.js"></script>
     <script type="text/javascript" src="assets/js/custom.js"></script>
-    <script type="text/javascript" src="assets/js/featherlight.min.js"></script>
-    <script src='http://imagesloaded.desandro.com/imagesloaded.pkgd.js'></script>
+    <script type="text/javascript" src='http://imagesloaded.desandro.com/imagesloaded.pkgd.js'></script>
     <script type="text/javascript">
     new WOW().init();
     </script>

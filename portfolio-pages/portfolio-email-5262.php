@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../assets/css/lightcase.css"> <!-- Resource style -->
     <link rel="stylesheet" href="../assets/css/ionicons.min.css"> <!-- Resource style -->
     <link rel="stylesheet" href="../assets/css/animate.css"> <!-- Resource style -->
-    <link rel="stylesheet" href="../assets/css/featherlight.min.css"><!-- Resource style -->
+    
     <link rel="stylesheet" href="../assets/css/featherlight.gallery.min.css"><!-- Resource style -->
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/user-style.css">
@@ -74,7 +74,7 @@
 
 <!-- Jquery and Js Plugins -->
     <script type="text/javascript" src="../assets/js/jquery-2.1.1.js"></script>
-    <script type="text/javascript" src="../assets/js/featherlight.min.js"></script>
+    
     <script type="text/javascript" src="../assets/js/featherlight.gallery.min.js"></script>
     <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../assets/js/plugins.js"></script>
