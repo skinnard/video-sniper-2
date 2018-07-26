@@ -8,11 +8,19 @@ $(function () {
             var url = "//formspree.io/glenrhodges@gmail.com";
 
             $.ajax({
-                type: "POST",
-                url: url,
-                data: $(this).serialize(),
+                url: "//formspree.io/glenrhodges@gmail.com",
+                method: "POST",
+                data: {
+                    name: name,
+                    _replyto: email,
+                    email: email,
+                    comments: comments,
+                    _subject: "My Form Submission"
+                },
+                dataType: "json",
                 success: function (data)
                 {
+                    console.log("success");
                     var messageAlert = 'alert-' + data.type;
                     var messageText = data.message;
 
