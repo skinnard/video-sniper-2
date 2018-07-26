@@ -36,75 +36,75 @@
 //     })
 // });
 
-$(function () {
-    "use strict";
+// $(function () {
+//     "use strict";
 
-    $('#contact-form').validator();
+//     $('#contact-form').validator();
 
-    $("#contact-form").on("submit", function(e) {
-        e.preventDefault();
+//     $("#contact-form").on("submit", function(e) {
+//         e.preventDefault();
 
-        var url = "//formspree.io/glenrhodges@gmail.com";
+//         var url = "//formspree.io/glenrhodges@gmail.com";
     
-        var name = $("#form_name").val();
-        var lastName = $("#form_lastname").val();
-        var email = $("#form_email").val();
-        var phone = $("#form_phone").val();
-        var message = $("#form_message").val();
+//         var name = $("#form_name").val();
+//         var lastName = $("#form_lastname").val();
+//         var email = $("#form_email").val();
+//         var phone = $("#form_phone").val();
+//         var message = $("#form_message").val();
     
-        //pretend we don't need validation
+//         //pretend we don't need validation
     
-        //send to formspree
-        $.ajax({
-        url: url,
-        method: "POST",
-        data: {
-            name: name,
-            lastName: lastName,
-            phone: phone,
-            _replyto: email,
-            email: email,
-            message: message,
-            _subject: "My Form Submission"
-        },
-        dataType: "json",
-        success: function() {
-            console.log("success");
-            $("#formBlock").hide();
-            $("#thankyouBlock").show();
-        }
-        });
-    });
-}); // END FUNCTION
-
-// $("#contact-form).on("submit", function(e) {
-//     e.preventDefault();
-  
-//     //get the name field value
-//     var name = $("#form_name").val();
-//     //get the name field value
-//     var email = $("#form_email").val();
-//     //get the comments
-//     var comments = $("#form_message").val();
-  
-//     //pretend we don't need validation
-  
-//     //send to formspree
-//     $.ajax({
-//       url: "//formspree.io/glenrhodges@gmail.com",
-//       method: "POST",
-//       data: {
-//         name: name,
-//         _replyto: email,
-//         email: email,
-//         comments: comments,
-//         _subject: "My Form Submission"
-//       },
-//       dataType: "json",
-//       success: function() {
-//         console.log("success");
-//         $("#formBlock").hide();
-//         $("#thankyouBlock").show();
-//       }
+//         //send to formspree
+//         $.ajax({
+//         url: url,
+//         method: "POST",
+//         data: {
+//             name: name,
+//             lastName: lastName,
+//             phone: phone,
+//             _replyto: email,
+//             email: email,
+//             message: message,
+//             _subject: "My Form Submission"
+//         },
+//         dataType: "json",
+//         success: function() {
+//             console.log("success");
+//             $("#formBlock").hide();
+//             $("#thankyouBlock").show();
+//         }
+//         });
 //     });
-//   });
+// }); // END FUNCTION
+
+$("#contact-form).on("submit", function(e) {
+    e.preventDefault();
+  
+    //get the name field value
+    var name = $("#form_name").val();
+    //get the name field value
+    var email = $("#form_email").val();
+    //get the comments
+    var message = $("#form_message").val();
+  
+    //pretend we don't need validation
+  
+    //send to formspree
+    $.ajax({
+      url: "//formspree.io/glenrhodges@gmail.com",
+      method: "POST",
+      data: {
+        name: name,
+        _replyto: email,
+        email: email,
+        message: message,
+        _subject: "My Form Submission"
+      },
+      dataType: "json",
+      success: function() {
+        console.log("success");
+        $("#formBlock").hide();
+        $("#thankyouBlock").show();
+      }
+    });
+  });
