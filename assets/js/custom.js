@@ -242,4 +242,4 @@ requestAnimationFrame(update);
 };
 requestAnimationFrame(update);
 
-});
+}); // END READY
