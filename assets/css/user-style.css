@@ -123,13 +123,12 @@ textarea.form-control {
 
 }
 
-
-
-
-
-
-
-
+#thankyouBlock {
+    padding: 20px;
+    margin-top: 20px;
+    color: #155724;
+    background-color: #d4edda;
+}
 
 
 
