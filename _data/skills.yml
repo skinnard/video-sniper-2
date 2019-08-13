@@ -1,0 +1,51 @@
+skills: 
+  - img: /assets/images/logos/html.png
+    alt: HTML Logo
+  - img: /assets/images/logos/css.png
+    alt: CSS Logo
+  - img: /assets/images/logos/js.png
+    alt: JavaScript Logo
+  - img: /assets/images/logos/react.png
+    alt: React Logo
+  - img: /assets/images/logos/jquery.png
+    alt: jQuery Logo
+  - img: /assets/images/logos/sass.png
+    alt: SASS Logo
+  - img: /assets/images/logos/php.png
+    alt: PHP logo
+  - img: /assets/images/logos/wordpress.png
+    alt: Wordpress Logo
+  - img: /assets/images/logos/jekyll.png
+    alt: Jekyll Logo
+  - img: /assets/images/logos/git.png
+    alt: Git Logo
+
+software:
+  - img: /assets/images/logos/photoshop.png
+    alt: Photoshop Logo
+  - img: /assets/images/logos/illustrator.png
+    alt: Illustrator Logo
+  - img: /assets/images/logos/aftereffects.png
+    alt: After Effects Logo
+  - img: /assets/images/logos/premier.png
+    alt: Premier Logo
+  - img: /assets/images/logos/sketch.png
+    alt: Sketch Logo
+  - img: /assets/images/logos/figma.png
+    alt: Figma Logo
+
+clients: 
+  - img: /assets/images/logos/bell.png
+    alt: Bell logo
+  - img: /assets/images/logos/bmo.png
+    alt: BMO logo
+  - img: /assets/images/logos/lexus.png
+    alt: Lexus Logo
+  - img: /assets/images/logos/toyota.png
+    alt: Toyota Logo
+  - img: /assets/images/logos/scion.png
+    alt: Scion logo
+  - img: /assets/images/logos/source.png
+    alt: Source logo
+  - img: /assets/images/logos/jb.png
+    alt: Joe Boxer logo

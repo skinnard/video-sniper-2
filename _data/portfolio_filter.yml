@@ -1,0 +1,15 @@
+- name: All
+  data_filter: '*'
+  class: active
+
+- name: Web
+  data_filter: .web
+  class: 
+
+- name: Email
+  data_filter: .email
+  class: 
+
+- name: Art
+  data_filter: .art
+  class: 
