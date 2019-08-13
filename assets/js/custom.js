@@ -55,7 +55,7 @@ $('#left-slides').vegas({
     		setTimeout(function() {
             $('#loading').fadeOut('slow', function() {
             });
-        }, 3000);
+        }, 500);
     });
 
 /* ----- Wow init ----- */
