@@ -1440,10 +1440,11 @@ textarea.form-control {
     text-align: left; } }
 
 #thankyouBlock {
-  padding: 20px;
-  margin-top: 20px;
-  color: #155724;
-  background-color: #d4edda; }
+  padding: 0;
+  margin: 0; }
+  #thankyouBlock h5 {
+    padding-bottom: 20px;
+    font-size: 18px; }
 
 .btn-contact {
   font-family: Work Sans;
