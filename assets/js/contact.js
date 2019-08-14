@@ -24,7 +24,6 @@ $("#contact-form").on("submit", function(e) {
         },
         dataType: "json",
         success: function() {
-            console.log("success");
             $("#contact-form").hide();
             $("#thankyouBlock").show();
         }
