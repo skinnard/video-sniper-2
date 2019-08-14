@@ -1,12 +1,11 @@
 $("#contact-form").on("submit", function(e) {
     e.preventDefault();
 
-    //get the name field value
-    var name = $("#name").val();
-    //get the name field value
-    var email = $("#email").val();
-    //get the comments
-    var comments = $("#comments").val();
+    var name = $("#form_name").val();
+    var lastName = $("#form_lastname").val();
+    var email = $("#form_email").val();
+    var phone = $("#form_phone").val();
+    var comments = $("#form_message").val();
 
     //pretend we don't need validation
 
@@ -16,15 +15,17 @@ $("#contact-form").on("submit", function(e) {
         method: "POST",
         data: {
             name: name,
+            lastName: lastName,
+            phoneNumber: phone,
             _replyto: email,
             email: email,
             comments: comments,
-            _subject: "My Form Submission"
+            _subject: "Form submission from glenhodgesweb.ninja"
         },
         dataType: "json",
         success: function() {
             console.log("success");
-            $("#formBlock").hide();
+            $("#contact-form").hide();
             $("#thankyouBlock").show();
         }
     });
