@@ -1,3 +1,8 @@
+// Prevent the flash of content before wow.js does it s thing
+.wow {
+  visibility: hidden;
+}
+
 body {
     background: #fff;
 }
@@ -6,6 +11,10 @@ body {
 	font-size: 26px;
 	padding-top: 15px;
 	font-weight: 100;
+}
+
+.left-section-4 {
+    background: url(../assets/images/Aare.svg) 0% 0% / cover;
 }
 
 .left-section-2 {
@@ -23,6 +32,7 @@ body {
 }
 
 .left-section-3 {
+    background-color: #fff;
     background: url(../assets/images/glen_pills_BW.png) no-repeat center center;    
     background-size: contain;
     position: absolute;
@@ -36,8 +46,8 @@ body {
     z-index: 1;
 }
 
-.particles-background {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../assets/images/space.jpg) no-repeat center center;
+.left-section-home {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../assets/images/Vorderrhein.svg) no-repeat center center;
     background-size: cover;
     position: absolute;
     left: 0;
@@ -119,7 +129,7 @@ textarea.form-control {
     .skills-wrapper,
     .software-wrapper,
     .clients-wrapper {
-        text-align: center;
+        text-align: left;
     }
 
     .skills-wrapper h3,

@@ -532,7 +532,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -3px;
   left: 0;
-  background-color: #2d2d2d;
+  background-color: #222222;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -610,7 +610,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-social i, .nav-social a {
   font-size: 21px;
-  color: #2d2d2d; }
+  color: #222222; }
 
 .nav-social a:before {
   display: none; }
@@ -742,7 +742,7 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   text-transform: uppercase;
   color: #FFFFFF;
-  background: #2d2d2d;
+  background: #222222;
   padding: 2px 4px;
   line-height: 1.2; }
 
@@ -795,7 +795,7 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   text-transform: uppercase;
   color: #FFFFFF;
-  background: #2d2d2d;
+  background: #222222;
   padding: 2px 4px;
   line-height: 1.2; }
 
@@ -825,7 +825,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Work Sans;
   font-size: 14px;
   font-weight: 400;
-  color: #2d2d2d;
+  color: #222222;
   padding: 0 0 10px 0;
   letter-spacing: 1px; }
 
@@ -848,7 +848,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFF;
   letter-spacing: 1px;
   padding: 2px 4px;
-  background: #2d2d2d; }
+  background: #222222; }
 
 .portfolio-split .portfolio-intro h1 {
   font-size: 28px;
@@ -1028,7 +1028,7 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   text-transform: uppercase;
   color: #FFFFFF;
-  background: #2d2d2d;
+  background: #222222;
   padding: 2px 4px;
   line-height: 1.2; }
 
@@ -1071,7 +1071,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 2;
   letter-spacing: 1px;
   color: #FFF;
-  background: #2d2d2d;
+  background: #222222;
   padding: 2px 4px;
   text-transform: uppercase; }
 
@@ -1117,7 +1117,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline;
   letter-spacing: 1px;
   color: #FFF;
-  background: #2d2d2d;
+  background: #222222;
   padding: 2px 4px;
   text-transform: uppercase; }
 
@@ -1157,7 +1157,7 @@ label {
   transition: 0.5s; }
 
 .form-control:focus {
-  border-color: #2d2d2d;
+  border-color: #222222;
   box-shadow: none; }
 
 .form-control::-webkit-input-placeholder {
@@ -1197,7 +1197,7 @@ label {
   margin-bottom: 20px;
   border-radius: 0px;
   color: #FFFFFF !important;
-  background: #2d2d2d;
+  background: #222222;
   transition: 0.5s; }
 
 .btn-send:hover, .btn-send:focus {
@@ -1234,7 +1234,7 @@ label {
   text-decoration: none; }
 
 .footer-personal a:hover, .footer-personal a:focus {
-  color: #2d2d2d;
+  color: #222222;
   text-decoration: line-through; }
 
 .footer-credits {
@@ -1331,6 +1331,9 @@ label {
 /* --------------------------------------------------
 ------- Media Queries for Split Layout Ends ---------
 ---------------------------------------------------*/
+.wow {
+  visibility: hidden; }
+
 body {
   background: #fff; }
 
@@ -1338,6 +1341,9 @@ body {
   font-size: 26px;
   padding-top: 15px;
   font-weight: 100; }
+
+.left-section-4 {
+  background: url(../assets/images/Aare.svg) 0% 0%/cover; }
 
 .left-section-2 {
   background: url(../assets/images/with-the-dudes.jpg) no-repeat center center;
@@ -1353,6 +1359,7 @@ body {
   z-index: 1; }
 
 .left-section-3 {
+  background-color: #fff;
   background: url(../assets/images/glen_pills_BW.png) no-repeat center center;
   background-size: contain;
   position: absolute;
@@ -1365,8 +1372,8 @@ body {
   overflow: hidden;
   z-index: 1; }
 
-.particles-background {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../assets/images/space.jpg) no-repeat center center;
+.left-section-home {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../assets/images/Vorderrhein.svg) no-repeat center center;
   background-size: cover;
   position: absolute;
   left: 0;
@@ -1433,7 +1440,7 @@ textarea.form-control {
   .skills-wrapper,
   .software-wrapper,
   .clients-wrapper {
-    text-align: center; }
+    text-align: left; }
   .skills-wrapper h3,
   .software-wrapper h3,
   .clients-wrapper h3 {
@@ -1450,12 +1457,12 @@ textarea.form-control {
   font-family: Work Sans;
   font-size: 18px;
   font-weight: 600;
-  color: #2d2d2d;
+  color: #222222;
   display: inline-block;
   text-transform: uppercase;
   background: transparent;
   border: 3px solid;
-  border-color: #2d2d2d;
+  border-color: #222222;
   padding: 10px 20px;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -1464,18 +1471,18 @@ textarea.form-control {
   transition: 0.5s; }
 
 .btn-contact:visited {
-  color: #2d2d2d;
-  border-color: #2d2d2d; }
+  color: #222222;
+  border-color: #222222; }
 
 .btn-contact:hover,
 .btn-contact:focus {
   color: #FFFFFF;
-  background: #2d2d2d;
-  border-color: #2d2d2d;
+  background: #222222;
+  border-color: #222222;
   text-decoration: none; }
 
 a:visited {
-  color: #2d2d2d; }
+  color: #222222; }
 
 #nav-menu a {
   position: relative;
@@ -1489,7 +1496,7 @@ a:visited {
   height: 2px;
   bottom: -3px;
   left: 0;
-  background-color: #2d2d2d;
+  background-color: #222222;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);

@@ -11,27 +11,27 @@
 
 - type: Website
   class: web
-  page: /portfolio/health-and-bone
+  page: /portfolio/health-and-bone/
   img: /assets/portfolio/web/healthandbone/hab.png
 
 - type: Website
   class: web
-  page: /portfolio/future-booth
+  page: /portfolio/future-booth/
   img: /assets/portfolio/web/fb/img-fb.jpg
 
 - type: Digital Illustration
   class: art
-  page: /portfolio/s-ronin
+  page: /portfolio/s-ronin/
   img: /assets/portfolio/art/s-ronan.jpg
 
 - type: Website
   class: web
-  page: /portfolio/usmc
+  page: /portfolio/usmc/
   img: /assets/portfolio/web/usmc/usmc.png
 
 - type: Website
   class: web
-  page: /portfolio/eastlink
+  page: /portfolio/eastlink/
   img: /assets/portfolio/web/elnk/elnk.png
 
 # - type: Website
@@ -41,22 +41,22 @@
 
 - type: Email
   class: email
-  page: /portfolio/scion-email
+  page: /portfolio/scion-email/
   img: /assets/portfolio/email/Scion/img-5371.png
 
 - type: Website
   class: web
-  page: /portfolio/the-handsome-devils
+  page: /portfolio/the-handsome-devils/
   img: /assets/portfolio/web/thd/img-thd.jpg
 
 - type: Digital Illustration
   class: art
-  page: /portfolio/old-dude
+  page: /portfolio/old-dude/
   img: /assets/portfolio/art/dude.jpg
 
 - type: Website
   class: web
-  page: /portfolio/utin
+  page: /portfolio/utin/
   img: /assets/portfolio/web/utin/utin.png
 
 # - type: Website
@@ -66,37 +66,37 @@
 
 - type: Email
   class: email
-  page: /portfolio/bell-email
+  page: /portfolio/bell-email/
   img: /assets/portfolio/email/BELL/6008/img-6008.png
 
 - type: Painting
   class: art
-  page: /portfolio/old-man
+  page: /portfolio/old-man/
   img: /assets/portfolio/art/old_man.jpg
 
 - type: Email
   class: email
-  page: /portfolio/lexus-email
+  page: /portfolio/lexus-email/
   img: /assets/portfolio/email/Lexus/img-5262.png
 
 - type: Painting
   class: art
-  page: /portfolio/jon
+  page: /portfolio/jon/
   img: /assets/portfolio/art/jon.jpg
 
 - type: Website
   class: web
-  page: /portfolio/kristen-hodges
+  page: /portfolio/kristen-hodges/
   img: /assets/portfolio/web/kh/img-kh.jpg
 
 - type: Digital Illustration
   class: art
-  page: /portfolio/love-bot
+  page: /portfolio/love-bot/
   img: /assets/portfolio/art/robot.jpg
 
 - type: Email
   class: email
-  page: /portfolio/bell-email-2
+  page: /portfolio/bell-email-2/
   img: /assets/portfolio/email/Bell/6037/img-6037.png
 
 # - type: Website
@@ -106,22 +106,22 @@
 
 - type: Email
   class: email
-  page: /portfolio/bell-email-4
+  page: /portfolio/bell-email-4/
   img: /assets/portfolio/email/BELL/PPV/img-ppv.png
 
 - type: Digital Illustration
   class: art
-  page: /portfolio/clint
+  page: /portfolio/clint/
   img: /assets/portfolio/art/clint.jpg
 
 - type: Email
   class: email
-  page: /portfolio/bmo-email
+  page: /portfolio/bmo-email/
   img: /assets/portfolio/email/BMO/img-5865.png
 
 - type: Email
   class: email
-  page: /portfolio/toyota-email
+  page: /portfolio/toyota-email/
   img: /assets/portfolio/email/Toyota/img-5540.png
 
 # - type: Website
@@ -131,10 +131,10 @@
 
 - type: Painting
   class: web
-  page: /portfolio/old-man
+  page: /portfolio/old-man/
   img: /assets/portfolio/art/man.jpg
 
 - type: Email
   class: email
-  page: /portfolio/bell-email-3
+  page: /portfolio/bell-email-3/
   img: /assets/portfolio/email/BELL/6119/img-6119.png

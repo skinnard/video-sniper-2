@@ -1,10 +1,10 @@
 ---
 layout: portfolio-page
-permalink: /portfolio/health-and-bone
+permalink: /portfolio/health-and-bone/
 type: Website
 title: Health &amp; Bone
 description: Website for Health &amp; Bone ostioporosis information website.
-url: http://healthandbone.ca
+link: https://healthandbone.ca
 target: _blank
 img: /assets/portfolio/web/healthandbone/hab.png
 ---
@@ -16,5 +16,7 @@ img: /assets/portfolio/web/healthandbone/hab.png
         {{ page.description }}
     </p>
     <div class="project-images wow fadeInLeft" data-wow-delay=".4s">
-        <a href="{{ page.url }}" target="{{ page.target }}"><img src="{{ page.img }}" alt="Project image" /></a>
+        <a href="{{ page.link }}" target="{{ page.target }}">
+            <img src="{{ page.img }}" alt="Project image" />
+        </a>
     </div>
