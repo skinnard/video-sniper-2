@@ -1,7 +1,6 @@
 name: Glen Hodges | Web Ninja
 title: Glen Hodges | Web Ninja
 
-markdown: redcarpet
 highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 # url: https://glenhodgesweb.ninja
