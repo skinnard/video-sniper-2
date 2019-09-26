@@ -14,7 +14,17 @@ body {
 }
 
 .left-section-4 {
-    background: url(../assets/images/Aare.svg) 0% 0% / cover;
+    background: url(../assets/images/Aare.svg) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
 }
 
 .left-section-2 {
