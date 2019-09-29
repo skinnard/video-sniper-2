@@ -1,13 +1,8 @@
 
 - type: Website
   class: web
-  page: /portfolio-pages/portfolio-web-real-intro.html
-  img: /assets/portfolio/web/realintro/realintro.png
-
-- type: Website
-  class: web
-  page: /portfolio-pages/portfolio-web-real-intro.html
-  img: /assets/portfolio/web/realintro/realintro.png
+  page: /portfolio/portfolio-web-remax/
+  img: /assets/portfolio/web/remax/remax.png
 
 - type: Website
   class: web
@@ -23,6 +18,11 @@
   class: art
   page: /portfolio/s-ronin/
   img: /assets/portfolio/art/s-ronan.jpg
+
+- type: Website
+  class: web
+  page: /portfolio/real-intro/
+  img: /assets/portfolio/web/realintro/realintro.png
 
 - type: Website
   class: web
