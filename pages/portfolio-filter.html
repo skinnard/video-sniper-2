@@ -23,14 +23,9 @@ permalink: /portfolio/
                             <nav class="categories">
                                 <ul class="primal-portfolio_filter">
 
-                                    {% for item in site.data.portfolio_filter %}
                                     <li>
-                                        <a href="" {% if item.class %} class="{{ item.class }}" {% endif %}
-                                            data-filter="{{ item.data_filter }}">
-                                            {{ item.name }}
-                                        </a>
-                                    </li>
-                                    {% endfor %}
+                                        <a href="#"  class="web" data-filter="web">Web</a>
+                                    </li>                                   
 
                                 </ul>
                             </nav>
