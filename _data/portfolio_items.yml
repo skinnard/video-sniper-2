@@ -1,18 +1,13 @@
 
 - type: Website
   class: web
-  page: /portfolio/portfolio-web-remax/
+  page: /portfolio/remax/
   img: /assets/portfolio/web/remax/remax.png
 
 - type: Website
   class: web
   page: /portfolio/health-and-bone/
   img: /assets/portfolio/web/healthandbone/hab.png
-
-- type: Website
-  class: web
-  page: /portfolio/future-booth/
-  img: /assets/portfolio/web/fb/img-fb.jpg
 
 - type: Digital Illustration
   class: art
@@ -23,11 +18,6 @@
   class: web
   page: /portfolio/real-intro/
   img: /assets/portfolio/web/realintro/realintro.png
-
-- type: Website
-  class: web
-  page: /portfolio/usmc/
-  img: /assets/portfolio/web/usmc/usmc.png
 
 - type: Website
   class: web
@@ -43,6 +33,11 @@
   class: email
   page: /portfolio/scion-email/
   img: /assets/portfolio/email/Scion/img-5371.png
+
+- type: Website
+  class: web
+  page: /portfolio/mcmaster/
+  img: /assets/portfolio/web/mcmaster/mcmaster.png
 
 - type: Website
   class: web
@@ -69,10 +64,20 @@
   page: /portfolio/bell-email/
   img: /assets/portfolio/email/BELL/6008/img-6008.png
 
+- type: Website
+  class: web
+  page: /portfolio/future-booth/
+  img: /assets/portfolio/web/fb/img-fb.jpg
+
 - type: Painting
   class: art
   page: /portfolio/old-man/
   img: /assets/portfolio/art/old_man.jpg
+
+- type: Website
+  class: web
+  page: /portfolio/usmc/
+  img: /assets/portfolio/web/usmc/usmc.png
 
 - type: Email
   class: email
@@ -94,10 +99,10 @@
   page: /portfolio/love-bot/
   img: /assets/portfolio/art/robot.jpg
 
-- type: Email
-  class: email
-  page: /portfolio/bell-email-2/
-  img: /assets/portfolio/email/Bell/6037/img-6037.png
+# - type: Email
+#   class: email
+#   page: /portfolio/bell-email-2/
+#   img: /assets/portfolio/email/BELL/6037/img-6037.png
 
 # - type: Website
 #   class: web
