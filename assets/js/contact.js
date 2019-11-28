@@ -1,31 +1,53 @@
-$("#contact-form").on("submit", function(e) {
-    e.preventDefault();
+    // Working Contact Form
+    $('#contact-form').submit(function() {
+        var action = $(this).attr('action');
 
-    var name = $("#form_name").val();
-    var lastName = $("#form_lastname").val();
-    var email = $("#form_email").val();
-    var phone = $("#form_phone").val();
-    var comments = $("#form_message").val();
+        $("#message").slideUp(750, function() {
+            $('#message').hide();
 
-    //pretend we don't need validation
+            $('#submit')
+                .before('')
+                .attr('disabled', 'disabled');
 
-    //send to formspree
-    $.ajax({
-        url: "https://formspree.io/glenrhodges@gmail.com",
-        method: "POST",
-        data: {
-            name: name,
-            lastName: lastName,
-            phoneNumber: phone,
-            _replyto: email,
-            email: email,
-            comments: comments,
-            _subject: "Form submission from glenhodgesweb.ninja"
-        },
-        dataType: "json",
-        success: function() {
-            $("#contact-form").hide();
-            $("#thankyouBlock").show();
-        }
+            $.post(action, {
+                    name: $('#name').val(),
+                    email: $('#email').val(),
+                    comments: $('#comments').val(),
+                },
+                function(data) {
+                    document.getElementById('message').innerHTML = data;
+                    $('#message').slideDown('slow');
+                    $('#cform img.contact-loader').fadeOut('slow', function() {
+                        $(this).remove()
+                    });
+                    $('#submit').removeAttr('disabled');
+                    if (data.match('success') != null) $('#cform').slideUp('slow');
+                }
+            );
+
+        });
+
+        return false;
+
     });
-});
+
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+    'use strict'
+  
+    window.addEventListener('load', function () {
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.getElementsByClassName('needs-validation')
+  
+      // Loop over them and prevent submission
+      Array.prototype.filter.call(forms, function (form) {
+        form.addEventListener('submit', function (event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+          form.classList.add('was-validated')
+        }, false)
+      })
+    }, false)
+  }())

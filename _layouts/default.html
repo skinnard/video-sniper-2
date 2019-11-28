@@ -2,16 +2,19 @@
 
 <body>
 
-    {% include loader.html %}
-    
-    <div class="wrapper">
+	{% include loader.html %}
 
-        {% include nav.html %}
+	<div class="wrapper">
 
-            {{ content }}
+		{% include header.html %}
 
-    <!-- Jquery and Js Plugins -->
-    {% include scripts.html %}
+		{{ content }}
+
+		{% include footer.html %}
+		{% include backtotop.html %}
+
+		<!-- Jquery and Js Plugins -->
+		{% include scripts.html %}
 
 </body>
 

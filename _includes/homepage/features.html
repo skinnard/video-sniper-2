@@ -1,0 +1,33 @@
+<!-- Feature Start -->
+<section class="section">
+	<div class="container">
+
+		{% for feature in site.data.features %}
+		<div class="feature">
+
+			<div class="icon-wrapper">
+				<i class="mdi {{ feature.icon }}"></i>
+			</div>
+
+			<div class="content mt-4">
+				<h4 class="title-2">{{ feature.title }}</h4>
+				<p class="text-muted mb-0">{{ feature.text }}</p>
+			</div>
+
+		</div>
+		<!--end col-->
+		{% endfor %}
+
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="home-shape-bottom">
+				<img src="assets/images/shapes/curve-light.png" alt="" class="img-fluid mx-auto d-block">
+			</div>
+		</div>
+		<!--end row-->
+	</div> <!-- END CONTAINER -->
+</section>
+<!--end section-->
+<!-- Feature End -->

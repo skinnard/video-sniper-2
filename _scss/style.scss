@@ -1,4 +1,3 @@
-@import 'reset';
-@import 'vars';
-@import 'theme-style';
-@import 'user-style';
+@import "./utilities/index";
+@import "./base/index";
+@import "./components/index";
