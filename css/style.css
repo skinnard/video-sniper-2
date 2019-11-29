@@ -24,7 +24,7 @@ h6,
 .h6 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
-  letter-spacing: -1.5px;
+  letter-spacing: -1px;
   line-height: 1.2; }
 
 h1 {
@@ -2046,52 +2046,44 @@ hr {
       -webkit-text-stroke: 2px #cc181e;
       -webkit-text-fill-color: #cc181e; }
 
-.feature-list li {
-  margin-bottom: 5px;
-  font-size: 15px; }
-
-.features .icon {
-  font-size: 24px;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  background: #f9d0d1;
-  text-align: center; }
-
-.features .image img {
-  height: 60px; }
-
-.features .image:before {
-  content: "";
-  position: absolute;
-  bottom: 0px;
-  right: -15px;
-  width: 70px;
-  height: 70px;
-  border-radius: 10px;
-  -webkit-transform: rotate(22deg);
-          transform: rotate(22deg);
-  background: linear-gradient(62.5deg, transparent, rgba(204, 24, 30, 0.09));
-  z-index: -1; }
-
-.features .title-2 {
-  font-size: 20px; }
-
-.key-feature {
-  transition: all 0.2s ease; }
-  .key-feature .icon {
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
-    background: linear-gradient(45deg, transparent, rgba(204, 24, 30, 0.15));
-    font-size: 24px; }
-  .key-feature:hover {
-    -webkit-transform: scale(1.05);
-            transform: scale(1.05); }
-
-.key-feature .content .title,
-.features .title {
-  font-size: 18px; }
+#home-features .features-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+  #home-features .features-wrapper .feature {
+    width: 30%;
+    margin-bottom: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 30px;
+    padding-top: 60px;
+    text-align: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column; }
+    #home-features .features-wrapper .feature .icon-wrapper {
+      position: relative;
+      margin-bottom: 10px; }
+      #home-features .features-wrapper .feature .icon-wrapper:before {
+        content: "";
+        position: absolute;
+        top: -20px;
+        right: calc(50% - 35px);
+        width: 70px;
+        height: 70px;
+        border-radius: 10px;
+        -webkit-transform: rotate(22deg);
+                transform: rotate(22deg);
+        background: linear-gradient(62.5deg, transparent, rgba(204, 24, 30, 0.7));
+        z-index: -1; }
+      #home-features .features-wrapper .feature .icon-wrapper i {
+        font-size: 30px;
+        font-size: 1.875rem;
+        color: #fff; }
 
 .work-process {
   transition: all 0.5s ease; }

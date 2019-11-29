@@ -1,23 +1,23 @@
-- title: Easy to use
-  text: Nisi aenean vulputate eleifend tellus vitae eleifend enim a Aliquam eleifend aenean elementum semper.
-  icon: mdi-checkbox-marked-circle
+- title: GET TRENDING VIDEOS
+  text: Get the most popular, most searched videos from around the world.
+  icon: fa-chart-line
   
-- title: Title 2
-  text: Nisi aenean vulputate eleifend tellus vitae eleifend enim a Aliquam eleifend aenean elementum semper.
-  icon: mdi-checkbox-marked-circle
+- title: KEYWORD SUGGESTIONS
+  text: Get long tail keyword suggestions by analyzing related videos, first page videos, google results and more…
+  icon: fa-key
 
-- title: Title 3
-  text: Nisi aenean vulputate eleifend tellus vitae eleifend enim a Aliquam eleifend aenean elementum semper.
-  icon: mdi-checkbox-marked-circle
+- title: ANALYZE COMPETITORS
+  text: Analyze your competition and find their weak points and profit from them.
+  icon: fa-users
 
-- title: Title 4
-  text: Nisi aenean vulputate eleifend tellus vitae eleifend enim a Aliquam eleifend aenean elementum semper.
-  icon: mdi-checkbox-marked-circle
+- title: PARTIAL/EXACT KEYWORD MATCH
+  text: Get the partial match keywords and related long tail keywords that are helping your competitors to rank and start out-ranking them!
+  icon: fa-exchange-alt
 
-- title: Title 5
-  text: Nisi aenean vulputate eleifend tellus vitae eleifend enim a Aliquam eleifend aenean elementum semper.
-  icon: mdi-checkbox-marked-circle
+- title: GENERATE VIDEO DETAILS
+  text: Auto generate SEO optimized Titles/Descriptions/Tags with our unique lexical semantic engine by reverse engineering the youtube algorithm.
+  icon: fa-info
 
-- title: Title 6
-  text: Nisi aenean vulputate eleifend tellus vitae eleifend enim a Aliquam eleifend aenean elementum semper.
-  icon: mdi-checkbox-marked-circle
+- title: TRACK VIDEO RANKINGS
+  text: Track your video ranks, views, likes etc. Without tracking your videos you would be working in the dark.
+  icon: fa-random
