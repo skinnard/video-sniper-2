@@ -3,6 +3,12 @@
 //
 
 #home-features {
+    padding: 140px 0 100px;
+
+    @include mq(custom, max, 768) {
+        padding: 100px 0 60px;
+    }
+
     .features-wrapper {
         display: flex;
         flex-wrap: wrap;
@@ -10,38 +16,55 @@
 
         .feature {
             width: 30%;
-            margin-bottom: 50px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 15px;
-            padding: 30px;
+            padding: 20px;
             padding-top: 60px;
             text-align: center;
-            // border-top: 6px solid $primary;
-            display: flex;
-            flex-direction: column;
-            // justify-content: center;
 
-            .icon-wrapper {
-                position: relative;
-                margin-bottom: 10px;
+            @include mq(custom, max, 992) {
+                margin-bottom: 30px;
+                padding: 0 10px 30px 10px;
+            }
 
-                &:before {
-                    content: "";
-                    position: absolute;
-                    top: -20px;
-                    right: calc(50% - 35px);
-                    width: 70px;
-                    height: 70px;
-                    border-radius: 10px;
-                    transform: rotate(22deg);
-                    background: linear-gradient(62.5deg, transparent, rgba($primary, 0.7));
-                    z-index: -1;
-                }
+            @include mq(custom, max, 767) {
+                width: 50%;
+                padding-bottom: 20px;
+                max-width: 300px;
+            }
 
-                i {
-                    @include font-size(30);
-                    color: #fff;
-                }
+            @include mq(custom, max, 500) {
+                width: 100%;
+                margin: 0 auto 30px;
+            }
+        }
+
+        .icon-wrapper {
+            position: relative;
+            margin-bottom: 40px;
+
+            &:before {
+                content: "";
+                position: absolute;
+                top: -20px;
+                right: calc(50% - 35px);
+                width: 70px;
+                height: 70px;
+                border-radius: 10px;
+                transform: rotate(0deg);
+                background: linear-gradient(62.5deg, rgba($primary, 0.3), rgba($primary, 1));
+                z-index: -1;
+            }
+
+            i {
+                @include font-size(30);
+                color: #fff;
+            }
+        }
+
+        .content {
+            @include mq(custom, max, 500) {
+                max-width: 270px;
+                margin: 0 auto;
             }
         }
     }

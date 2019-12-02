@@ -29,6 +29,14 @@ h6,
 
 h1 {
     @include font-size(42);
+
+    @include mq(custom, max, 991) {
+        @include font-size(38);
+    }
+
+    @include mq(custom, max, 500) {
+        @include font-size(32);
+    }
 }
 
 ::selection {

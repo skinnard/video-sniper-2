@@ -3,6 +3,7 @@
     background: url(../../assets/images/home-bg-1-red.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 
     .container {
 
@@ -17,6 +18,9 @@
         .feature-wrapper {
             display: flex;
             justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 700px;
+            margin: 0 auto;
 
             .left,
             .center,
@@ -25,6 +29,12 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+
+                @include mq(custom, max, 500) {
+                    width: 100%;
+                    margin-bottom: 20px;
+                    ;
+                }
 
                 i {
                     @include font-size(40);
@@ -35,6 +45,7 @@
                     margin-top: 10px;
                     text-transform: uppercase;
                     color: #fff;
+                    text-align: center;
                 }
             }
         }
