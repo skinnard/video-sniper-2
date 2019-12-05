@@ -1,0 +1,14 @@
+- title: Accordion 1
+  content: There are many variations of passages of Lorem Ipsumavailable, but the majority have suffered alteration in some form
+  id: collapseOne
+  headingId: headingOne
+
+- title: Accordion 2
+  content: There are many variations of passages of Lorem Ipsumavailable, but the majority have suffered alteration in some form
+  id: collapseTwo
+  headingId: headingTwo
+
+- title: Accordion 3
+  content: There are many variations of passages of Lorem Ipsumavailable, but the majority have suffered alteration in some form
+  id: collapseThree
+  headingId: headingThree

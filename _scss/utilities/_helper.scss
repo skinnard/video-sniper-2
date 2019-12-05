@@ -2,14 +2,20 @@
 // helper.scss
 //
 
+.hide {
+    display: none;
+}
+
 .section {
     padding: 100px 0;
     position: relative;
 }
+
 .section-two {
     padding: 60px 0;
     position: relative;
 }
+
 .bg-overlay {
     background-color: $overlay;
     position: absolute;
@@ -20,6 +26,7 @@
     width: 100%;
     height: 100%
 }
+
 .bg-overlay-gradient {
     background-color: $gradident-overlay;
 }
@@ -33,34 +40,37 @@
     background: darken($primary, 30%);
     opacity: 0.8;
 }
+
 //Title
 // .title-heading {
-    //     line-height: 26px;
-    //     .heading {
-    //         font-size: 45px;
-    //         letter-spacing: 1px;
-    //     }
-    //     .para-desc {
-    //         font-size: 18px;
-    //     }
-    // }
-    // .section-title {
-    //     position: relative;
-    //     .main-title {
-    //         font-size: 35px;
-    //         letter-spacing: 0.8px;
-    //     }
-    //     .title {
-    //         letter-spacing: 0.5px;
-    //         font-size: 30px;
-    //     }
-    // } 
+//     line-height: 26px;
+//     .heading {
+//         font-size: 45px;
+//         letter-spacing: 1px;
+//     }
+//     .para-desc {
+//         font-size: 18px;
+//     }
+// }
+// .section-title {
+//     position: relative;
+//     .main-title {
+//         font-size: 35px;
+//         letter-spacing: 0.8px;
+//     }
+//     .title {
+//         letter-spacing: 0.5px;
+//         font-size: 30px;
+//     }
+// } 
 .text-shadow-title {
     text-shadow: 2px 0 0 $white, -2px 0 0 $white, 0 4px 0 rgba($white, 0.4), 0 -2px 0 $white, 1px 1px $white, -1px -1px 0 $white, 1px -1px 0 $white, -1px 1px 0 $white;
 }
+
 .para-desc {
     max-width: 600px;
 }
+
 .mt-100 {
     margin-top: 100px;
 }
@@ -68,6 +78,7 @@
 .mb-60 {
     margin-bottom: 60px;
 }
+
 //Shapes
 .home-shape-bottom {
     display: block;
@@ -76,11 +87,13 @@
     height: auto;
     bottom: -1px;
     left: 0;
+
     img {
         width: 100%;
         height: auto;
     }
 }
+
 .home-shape-arrow {
     display: block;
     position: absolute;
@@ -89,10 +102,12 @@
     bottom: -38px;
     z-index: 1;
     left: 0;
+
     img {
         height: auto;
         transform: rotate(180deg);
     }
+
     .arrow-icon {
         position: absolute;
         top: 0;
@@ -106,11 +121,13 @@
 .mover {
     animation: mover 1s infinite alternate;
 }
+
 @keyframes mover {
     0% {
         -webkit-transform: translateY(0);
         transform: translateY(0);
     }
+
     100% {
         transform: translateY(5px);
     }
@@ -120,19 +137,21 @@
     .margin-top-100 {
         margin-top: 100px;
         // .heading {
-    //     font-size: 40px;
-    // }
+        //     font-size: 40px;
+        // }
     }
 }
+
 // @media (max-width: 767px) {
-    //     .pt-sm-60 {
-    //         padding-top: 0 !important;
-    //     }
-    // }
+//     .pt-sm-60 {
+//         padding-top: 0 !important;
+//     }
+// }
 @media (max-width: 768px) {
     .section {
         padding: 60px 0;
     }
+
     // .title-heading {
     //     .heading {
     //         font-size: 35px !important;
@@ -152,5 +171,5 @@
     .mt-60 {
         margin-top: 60px;
     }
-    
+
 }

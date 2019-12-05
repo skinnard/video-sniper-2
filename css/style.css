@@ -53,6 +53,9 @@ a {
 p {
   line-height: 1.6; }
 
+.hide {
+  display: none; }
+
 .section {
   padding: 100px 0;
   position: relative; }
@@ -756,7 +759,8 @@ button:not(:disabled) {
       margin-right: 0; }
       .page-next-level .page-next li:last-child:after {
         display: none; }
-    .page-next-level .page-next li a, .page-next-level .page-next li span {
+    .page-next-level .page-next li a,
+    .page-next-level .page-next li span {
       font-size: 14px;
       padding-right: 8px;
       transition: all 0.5s ease; }
@@ -809,41 +813,6 @@ button:not(:disabled) {
 
 .faq-container .question {
   font-size: 20px; }
-
-.faq-content .card .faq .card-header {
-  padding-right: 40px !important; }
-  .faq-content .card .faq .card-header.card-header-2 {
-    border-bottom: 0; }
-    .faq-content .card .faq .card-header.card-header-2 .faq-question {
-      font-size: 18px; }
-
-.faq-content .card a.faq[data-toggle=collapse] {
-  background-color: #ffffff;
-  color: #cc181e;
-  transition: all 0.5s; }
-  .faq-content .card a.faq[data-toggle=collapse]:before {
-    content: '\F143';
-    display: block;
-    font-family: 'Material Design Icons';
-    font-size: 18px;
-    color: #3c4858;
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    transition: all 0.5s ease; }
-  .faq-content .card a.faq[data-toggle=collapse].collapsed {
-    background-color: #ffffff;
-    color: #3c4858;
-    transition: all 0.5s; }
-    .faq-content .card a.faq[data-toggle=collapse].collapsed:before {
-      top: 20px;
-      -webkit-transform: rotate(180deg);
-              transform: rotate(180deg); }
-
-.faq-content .card .title {
-  font-size: 18px; }
 
 .nav-pills .nav-item {
   margin-bottom: 15px; }
@@ -911,7 +880,8 @@ button:not(:disabled) {
     .form-group textarea.form-control {
       line-height: 25px; }
 
-.form-control:disabled, .form-control[readonly] {
+.form-control:disabled,
+.form-control[readonly] {
   background-color: transparent;
   opacity: 1; }
 
@@ -966,7 +936,8 @@ button:not(:disabled) {
       height: 40px;
       position: relative;
       margin: 100px auto; }
-      #preloader #status .spinner .double-bounce1, #preloader #status .spinner .double-bounce2 {
+      #preloader #status .spinner .double-bounce1,
+      #preloader #status .spinner .double-bounce2 {
         width: 100%;
         height: 100%;
         border-radius: 50%;
@@ -982,7 +953,8 @@ button:not(:disabled) {
                 animation-delay: -1.0s; }
 
 @-webkit-keyframes sk-bounce {
-  0%, 100% {
+  0%,
+  100% {
     -webkit-transform: scale(0);
             transform: scale(0); }
   50% {
@@ -990,7 +962,8 @@ button:not(:disabled) {
             transform: scale(1); } }
 
 @keyframes sk-bounce {
-  0%, 100% {
+  0%,
+  100% {
     -webkit-transform: scale(0);
             transform: scale(0); }
   50% {
@@ -2050,12 +2023,12 @@ hr {
         border-radius: 10px;
         -webkit-transform: rotate(0deg);
                 transform: rotate(0deg);
-        background: linear-gradient(62.5deg, rgba(204, 24, 30, 0.3), #cc181e);
-        z-index: -1; }
+        z-index: -1;
+        border: 3px solid #cc181e; }
       #home-features .features-wrapper .icon-wrapper i {
         font-size: 30px;
         font-size: 1.875rem;
-        color: #fff; }
+        color: #cc181e; }
     @media screen and (max-width: 500px) {
       #home-features .features-wrapper .content {
         max-width: 270px;
@@ -2723,3 +2696,46 @@ hr {
 
 .hide {
   display: none; }
+
+.faq-content .card .faq .card-header {
+  padding-right: 40px !important; }
+  .faq-content .card .faq .card-header.card-header-2 {
+    border-bottom: 0; }
+    .faq-content .card .faq .card-header.card-header-2 .faq-question {
+      font-size: 18px; }
+
+.faq-content .card a.faq[data-toggle=collapse] {
+  background-color: #ffffff;
+  color: #cc181e;
+  transition: all 0.5s; }
+  .faq-content .card a.faq[data-toggle=collapse]:before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f078";
+    display: block;
+    font-size: 18px;
+    color: #3c4858;
+    position: absolute;
+    right: 20px;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+    transition: all 0.5s ease;
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    width: 15px;
+    height: 15px;
+    top: 15px; }
+  .faq-content .card a.faq[data-toggle=collapse].collapsed {
+    background-color: #ffffff;
+    color: #3c4858;
+    transition: all 0.5s; }
+    .faq-content .card a.faq[data-toggle=collapse].collapsed:before {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+      -webkit-transform-origin: center;
+              transform-origin: center; }
+
+.faq-content .card .title {
+  font-size: 18px; }
