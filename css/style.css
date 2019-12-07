@@ -486,7 +486,7 @@ a.text-light:hover {
   letter-spacing: 0.5px;
   transition: all 0.3s;
   font-weight: 600;
-  border-radius: 10px; }
+  border-radius: 30px; }
   .btn:focus {
     box-shadow: none !important; }
   .btn.btn-sm {
@@ -2020,7 +2020,7 @@ hr {
         right: calc(50% - 35px);
         width: 70px;
         height: 70px;
-        border-radius: 10px;
+        border-radius: 40px;
         -webkit-transform: rotate(0deg);
                 transform: rotate(0deg);
         z-index: -1;
@@ -2697,45 +2697,50 @@ hr {
 .hide {
   display: none; }
 
-.faq-content .card .faq .card-header {
-  padding-right: 40px !important; }
-  .faq-content .card .faq .card-header.card-header-2 {
-    border-bottom: 0; }
-    .faq-content .card .faq .card-header.card-header-2 .faq-question {
+.faq-content {
+  padding: 100px 0 0; }
+  .faq-content .card {
+    margin-bottom: 20px; }
+    .faq-content .card .faq .card-header {
+      padding-right: 40px !important; }
+      .faq-content .card .faq .card-header.card-header-2 {
+        border-bottom: 0; }
+        .faq-content .card .faq .card-header.card-header-2 .faq-question {
+          font-size: 18px; }
+    .faq-content .card a.faq[data-toggle=collapse] {
+      background-color: #ffffff;
+      color: #cc181e;
+      transition: all 0.5s; }
+      .faq-content .card a.faq[data-toggle=collapse]:before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f078";
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+            align-items: center;
+        font-size: 18px;
+        color: #3c4858;
+        position: absolute;
+        right: 20px;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+        -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+        transition: all 0.5s ease;
+        -webkit-transform-origin: center;
+                transform-origin: center;
+        width: 15px;
+        height: 15px;
+        top: 20px; }
+      .faq-content .card a.faq[data-toggle=collapse].collapsed {
+        background-color: #ffffff;
+        color: #3c4858;
+        transition: all 0.5s; }
+        .faq-content .card a.faq[data-toggle=collapse].collapsed:before {
+          -webkit-transform: rotate(0);
+                  transform: rotate(0);
+          -webkit-transform-origin: center;
+                  transform-origin: center; }
+    .faq-content .card .title {
       font-size: 18px; }
-
-.faq-content .card a.faq[data-toggle=collapse] {
-  background-color: #ffffff;
-  color: #cc181e;
-  transition: all 0.5s; }
-  .faq-content .card a.faq[data-toggle=collapse]:before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f078";
-    display: block;
-    font-size: 18px;
-    color: #3c4858;
-    position: absolute;
-    right: 20px;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
-    transition: all 0.5s ease;
-    -webkit-transform-origin: center;
-            transform-origin: center;
-    width: 15px;
-    height: 15px;
-    top: 15px; }
-  .faq-content .card a.faq[data-toggle=collapse].collapsed {
-    background-color: #ffffff;
-    color: #3c4858;
-    transition: all 0.5s; }
-    .faq-content .card a.faq[data-toggle=collapse].collapsed:before {
-      -webkit-transform: rotate(0);
-              transform: rotate(0);
-      -webkit-transform-origin: center;
-              transform-origin: center; }
-
-.faq-content .card .title {
-  font-size: 18px; }

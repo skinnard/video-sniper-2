@@ -1,57 +1,62 @@
 .faq-content {
-    .card {
-        .faq {
-            .card-header {
-                padding-right: 40px !important;
+	padding: 100px 0 0;
 
-                &.card-header-2 {
-                    border-bottom: 0;
+	.card {
+		margin-bottom: 20px;
 
-                    .faq-question {
-                        font-size: 18px;
-                    }
-                }
-            }
-        }
+		.faq {
+			.card-header {
+				padding-right: 40px !important;
 
-        a.faq[data-toggle=collapse] {
-            background-color: $white;
-            color: $primary;
-            transition: all 0.5s;
+				&.card-header-2 {
+					border-bottom: 0;
 
-            &:before {
-                font-family: "Font Awesome 5 Free";
-                font-weight: 900;
-                content: "\f078";
-                display: block;
-                font-size: 18px;
-                color: $dark;
-                position: absolute;
-                right: 20px;
-                // top: 50%;
+					.faq-question {
+						font-size: 18px;
+					}
+				}
+			}
+		}
+
+		a.faq[data-toggle=collapse] {
+			background-color: $white;
+			color: $primary;
+			transition: all 0.5s;
+
+			&:before {
+				font-family: "Font Awesome 5 Free";
+				font-weight: 900;
+				content: "\f078";
+				display: flex;
+				align-items: center;
+				font-size: 18px;
+				color: $dark;
+				position: absolute;
+				right: 20px;
+				// top: 50%;
 				transform: translateY(-50%);
 				transform: rotate(180deg);
-                transition: all 0.5s ease;
-                transform-origin: center;
-                width: 15px;
-                height: 15px;
-                top: 15px;
-            }
+				transition: all 0.5s ease;
+				transform-origin: center;
+				width: 15px;
+				height: 15px;
+				top: 20px;
+			}
 
-            &.collapsed {
-                background-color: $white;
-                color: $dark;
-                transition: all 0.5s;
+			&.collapsed {
+				background-color: $white;
+				color: $dark;
+				transition: all 0.5s;
 
-                &:before {
-                    transform: rotate(0);
-                    transform-origin: center;
-                }
-            }
-        }
+				&:before {
+					transform: rotate(0);
+					transform-origin: center;
+				}
+			}
+		}
 
-        .title {
-            font-size: 18px;
-        }
-    }
+		.title {
+			font-size: 18px;
+		}
+	}
 }
