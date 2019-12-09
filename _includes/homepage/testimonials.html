@@ -21,15 +21,8 @@
 				<div id="customer-testi">
 
 					{% for test in site.data.testimonials %}
-					<div class="media customer-testi m-2">
+					<div class="media customer-testi">
 						<div class="media-body content p-3 shadow rounded bg-white position-relative">
-							<ul class="list-unstyled mb-0">
-								<li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-								<li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-								<li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-								<li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-								<li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
-							</ul>
 							{{ test.text }}
 							<h6 class="text-primary">- {{ test.name }}</h6>
 						</div>

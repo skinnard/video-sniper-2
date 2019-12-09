@@ -6,58 +6,91 @@
     padding: 60px 0;
     position: relative;
     color: $gray-500;
+
     .logo-footer {
         color: $light;
         font-weight: 700;
         font-size: 24px;
         padding: 3px 0;
         letter-spacing: 1px;
+
+        svg {
+            max-width: 100%;
+            width: 100%;
+
+            @include mq(custom, max, 991) {
+                max-width: 450px;
+            }
+        }
     }
+
+    .center-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @include mq(custom, max, 991) {
+            align-items: flex-start;
+        }
+    }
+
     .footer-head {
-        font-size: 20px; 
-        letter-spacing: 1px;         
+        font-size: 20px;
+        letter-spacing: 1px;
         font-weight: 500;
     }
+
     .foot-subscribe {
         .form-control {
             background-color: #25304e;
             border: 1px solid #25304e;
             color: $light;
+
             &:focus {
                 box-shadow: none;
             }
         }
+
         &.foot-white {
             .form-control {
                 color: $gray-500;
             }
         }
-        input{
-            &::placeholder{
+
+        input {
+            &::placeholder {
                 color: $gray-500;
             }
         }
-    } 
+    }
+
     .text-foot {
         color: $gray-500;
     }
+
     .footer-list {
         margin-bottom: 0;
+
         li {
             margin-bottom: 10px;
-            a{
+
+            a {
                 transition: all 0.5s ease;
+
                 &:hover {
                     color: lighten($gray-500, 20%);
                 }
-            }   
-            &:last-child{
+            }
+
+            &:last-child {
                 margin-bottom: 0;
-            }         
+            }
         }
-    }    
+    }
+
     &.footer-bar {
         padding: 30px 0;
+
         .payment-cards {
             img {
                 height: 25px;

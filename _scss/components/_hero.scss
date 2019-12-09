@@ -1,54 +1,83 @@
 #home {
-    height: 100vh;
-    display: flex;
-    align-items: center;
+	height: 100vh;
+	display: flex;
+	align-items: center;
 
-    .content-wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        padding: 0 20px;
+	.content-wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		padding: 0 20px;
 
-        &__left {
-            width: 40%;
-            padding-right: 40px;
+		&__left {
+			width: 40%;
+			padding-right: 40px;
 
-            @include mq(custom, max, 991) {
-                width: 100%;
-                text-align: center;
-                margin-bottom: 50px;
-                padding-right: 0;
-            }
+			@include mq(custom, max, 991) {
+				width: 100%;
+				text-align: center;
+				margin-bottom: 50px;
+				padding-right: 0;
+			}
 
-            .heading {
-                margin-bottom: 20px;
-            }
+			.heading {
+				margin-bottom: 20px;
+			}
 
-            .para-desc {
-                margin-bottom: 30px;
-            }
-        }
+			.para-desc {
+				margin-bottom: 30px;
+			}
 
-        &__right {
-            width: 60%;
+			.btn-wrapper {
+				display: inline-block;
 
-            @include mq(custom, max, 991) {
-                width: 100%;
-            }
+				a {
+					display: flex;
+					align-items: center;
 
-            .img-wrapper {
-                text-align: center;
+					i {
+						font-size: 10px;
+						padding-left: 5px;
+					}
+				}
+			}
+		}
 
-                img {
-                    width: 100%;
-                    top: 0;
+		&__right {
+			width: 60%;
+			position: relative;
 
-                    @include mq(custom, max, 991) {
-                        max-width: 600px;
-                    }
-                }
-            }
-        }
-    }
+			@include mq(custom, max, 991) {
+				width: 100%;
+			}
+
+			.icon-wrapper {
+				position: absolute;
+				left: calc(50% - 75px);
+				top: calc(50% - 75px);
+				z-index: 999;
+
+				a {
+					i {
+						font-size: 150px;
+						color: $primary;
+					}
+				}
+			}
+
+			.img-wrapper {
+				text-align: center;
+
+				img {
+					width: 100%;
+					top: 0;
+
+					@include mq(custom, max, 991) {
+						max-width: 600px;
+					}
+				}
+			}
+		}
+	}
 }

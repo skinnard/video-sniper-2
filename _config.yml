@@ -1,5 +1,5 @@
-name: Glen Hodges | Web Ninja
-title: Glen Hodges | Web Ninja
+name: VIDEO SNIPER PRO
+title: VIDEO SNIPER PRO
 
 highlighter: rouge
 
@@ -11,4 +11,7 @@ exclude:
   - .gitignore
   - "package-lock.json"
 
-about: I&rsquo;m a front-end developer and designer with a wide skillset ranging from coding to animation to fine art. My education is in media and fine arts. I&rsquo;m a self taught coder with a passion for learning new skills, software and practices. If you&rsquo;re looking for someone who can jump between disclipines and has a keen eye for pixel perfect visuals, then I&rsquo;m your guy!
+about: 
+
+plugins:
+  - jekyll-inline-svg

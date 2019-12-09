@@ -20,48 +20,48 @@
 	} );
 
 	// Menu
-	$( '.navbar-toggle' ).on( 'click', function ( event ) {
-		$( this ).toggleClass( 'open' );
-		$( '#navigation' ).slideToggle( 400 );
-	} );
+	// $( '.navbar-toggle' ).on( 'click', function ( event ) {
+	// 	$( this ).toggleClass( 'open' );
+	// 	$( '#navigation' ).slideToggle( 400 );
+	// } );
 
-	$( '.navigation-menu>li' ).slice( -1 ).addClass( 'last-elements' );
+	// $( '.navigation-menu>li' ).slice( -1 ).addClass( 'last-elements' );
 
-	$( '.menu-arrow,.submenu-arrow' ).on( 'click', function ( e ) {
-		if ( $( window ).width() < 992 ) {
-			e.preventDefault();
-			$( this ).parent( 'li' ).toggleClass( 'open' ).find( '.submenu:first' ).toggleClass( 'open' );
-		}
-	} );
+	// $( '.menu-arrow,.submenu-arrow' ).on( 'click', function ( e ) {
+	// 	if ( $( window ).width() < 992 ) {
+	// 		e.preventDefault();
+	// 		$( this ).parent( 'li' ).toggleClass( 'open' ).find( '.submenu:first' ).toggleClass( 'open' );
+	// 	}
+	// } );
 
-	$( ".navigation-menu a" ).each( function () {
-		if ( this.href == window.location.href ) {
-			$( this ).parent().addClass( "active" );
-			$( this ).parent().parent().parent().addClass( "active" );
-			$( this ).parent().parent().parent().parent().parent().addClass( "active" );
-		}
-	} );
+	// $( ".navigation-menu a" ).each( function () {
+	// 	if ( this.href == window.location.href ) {
+	// 		$( this ).parent().addClass( "active" );
+	// 		$( this ).parent().parent().parent().addClass( "active" );
+	// 		$( this ).parent().parent().parent().parent().parent().addClass( "active" );
+	// 	}
+	// } );
 
 	// Clickable Menu
-	$( ".has-submenu a" ).click( function () {
-		if ( window.innerWidth < 992 ) {
-			if ( $( this ).parent().hasClass( 'open' ) ) {
-				$( this ).siblings( '.submenu' ).removeClass( 'open' );
-				$( this ).parent().removeClass( 'open' );
-			} else {
-				$( this ).siblings( '.submenu' ).addClass( 'open' );
-				$( this ).parent().addClass( 'open' );
-			}
-		}
-	} );
+	// $( ".has-submenu a" ).click( function () {
+	// 	if ( window.innerWidth < 992 ) {
+	// 		if ( $( this ).parent().hasClass( 'open' ) ) {
+	// 			$( this ).siblings( '.submenu' ).removeClass( 'open' );
+	// 			$( this ).parent().removeClass( 'open' );
+	// 		} else {
+	// 			$( this ).siblings( '.submenu' ).addClass( 'open' );
+	// 			$( this ).parent().addClass( 'open' );
+	// 		}
+	// 	}
+	// } );
 
-	$( '.mouse-down' ).on( 'click', function ( event ) {
-		var $anchor = $( this );
-		$( 'html, body' ).stop().animate( {
-			scrollTop: $( $anchor.attr( 'href' ) ).offset().top - 0
-		}, 1500, 'easeInOutExpo' );
-		event.preventDefault();
-	} );
+	// $( '.mouse-down' ).on( 'click', function ( event ) {
+	// 	var $anchor = $( this );
+	// 	$( 'html, body' ).stop().animate( {
+	// 		scrollTop: $( $anchor.attr( 'href' ) ).offset().top - 0
+	// 	}, 1500, 'easeInOutExpo' );
+	// 	event.preventDefault();
+	// } );
 
 	//Sticky
 	$( window ).scroll( function () {
@@ -101,6 +101,30 @@
 	//     duration: 1000
 	// });
 
+	// Login/Register modal toggle flip class
+	var loginCard = document.getElementById( 'login-modal-flip' );
+	var regCard = document.getElementById( 'reg-modal-flip' );
+	var loginBtn = document.getElementById( 'login-flip' );
+	var registerBtn = document.getElementById( 'register-flip' );
+	var regLoginBtn = document.getElementById( 'reg-login-flip' );
+	var regRegisterBtn = document.getElementById( 'reg-register-flip' );
+
+	loginBtn.addEventListener( 'click', function ( e ) {
+		loginCard.classList.toggle( 'is-flipped' );
+	} );
+
+	registerBtn.addEventListener( 'click', function ( e ) {
+		loginCard.classList.toggle( 'is-flipped' );
+	} );
+
+	regLoginBtn.addEventListener( 'click', function ( e ) {
+		regCard.classList.toggle( 'is-flipped' );
+	} );
+
+	regRegisterBtn.addEventListener( 'click', function ( e ) {
+		regCard.classList.toggle( 'is-flipped' );
+	} );
+
 }( jQuery )
 
 // Pricing monthly switch
@@ -109,8 +133,6 @@ var e = document.getElementById( "filt-monthly" ),
 	t = document.getElementById( "switcher" ),
 	m = document.getElementById( "monthly" ),
 	y = document.getElementById( "yearly" );
-
-console.log( 'Monthly', m );
 
 e.addEventListener( "click", function () {
 	console.log( 'filt-monthly' );

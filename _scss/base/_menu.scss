@@ -16,7 +16,7 @@
         float: left;
 
         .logo {
-            img {
+            svg {
                 width: 100%;
             }
         }
@@ -92,10 +92,19 @@
     }
 
     //Buy button
-    .buy-button {
+    .signup-buttons {
         float: right;
         line-height: 68px;
         padding: 3px 0;
+        display: flex;
+
+        .login-wrapper {
+            margin-right: 20px;
+
+            a {
+                color: $primary;
+            }
+        }
     }
 
     .navbar-toggle {
