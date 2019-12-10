@@ -31,13 +31,44 @@
 			</div>
 		</div>
 
-		<div id="navigation">
+		<div>
+
+			{% if page.id == 'home' %}
 			<!-- Navigation Menu-->
-			<ul id="navigation-menu" class="navigation-menu">
-				<li><a href="/#home-features">Features</a></li>
-				<li><a href="/#home-pricing">Pricing</a></li>
-				<li><a href="/#home-faq">FAQ</a></li>
+			<ul id="navigation-menu" class="nav navigation-menu">
+				<li class="nav-item">
+					<a class="nav-link" href="#home-features">Features</a></li>
+				<li class="nav-item">
+					<a class="nav-link" href="#home-pricing">Pricing</a></li>
+				<li class="nav-item">
+					<a class="nav-link" href="#home-faq">FAQ</a></li>
 			</ul>
+			{% else %}
+			<!-- Navigation Menu-->
+			<ul id="navigation-menu" class="nav navigation-menu">
+				<li class="nav-item">
+					<a class="nav-link" href="{{ site.url }}/#home-features">Features</a></li>
+				<li class="nav-item">
+					<a class="nav-link" href="{{ site.url }}/#home-pricing">Pricing</a></li>
+				<li class="nav-item">
+					<a class="nav-link" href="{{ site.url }}/#home-faq">FAQ</a></li>
+			</ul>
+			{% endif %}
+			<!-- <ul id="navigation-menu" class="nav nav-pills">
+				<li class="nav-item">
+					<a class="nav-link" href="#home-features">@fat</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#home-pricing">@mdo</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#home-faq">@mdo</a>
+				</li>
+
+			</ul> -->
+
+
+
 			<!--end navigation menu-->
 			<div class="buy-menu-btn d-none">
 				<a href="#" target="_blank" class="btn btn-primary">Buy Now</a>

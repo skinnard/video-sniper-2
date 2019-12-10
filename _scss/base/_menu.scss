@@ -254,6 +254,16 @@
         background: $white;
         box-shadow: $shadow;
     }
+
+    #navigation-menu {
+        .nav-item {
+            .nav-link {
+                &.active {
+                    color: $primary;
+                }
+            }
+        }
+    }
 }
 
 .logo {

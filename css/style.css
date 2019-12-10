@@ -1425,6 +1425,8 @@ hr {
   #topnav.nav-sticky {
     background: #ffffff;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.15); }
+  #topnav #navigation-menu .nav-item .nav-link.active {
+    color: #cc181e; }
 
 .logo {
   font-weight: 700;
