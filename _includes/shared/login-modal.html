@@ -1,0 +1,153 @@
+<!-- Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+	<div id="login-modal-flip" class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content front">
+			<div class="close-btn">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+
+			<div class="text-center">
+				<h4 class="mb-4">Login</h4>
+			</div>
+			<form class="login-form">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="form-group position-relative">
+							<label>Your Email <span class="text-danger">*</span></label>
+							<i class="mdi mdi-account ml-3 icons"></i>
+							<input type="email" class="form-control" placeholder="Email" name="email" required="">
+						</div>
+					</div>
+
+					<div class="col-lg-12">
+						<div class="form-group position-relative">
+							<label>Password <span class="text-danger">*</span></label>
+							<i class="mdi mdi-key ml-3 icons"></i>
+							<input type="password" class="form-control" placeholder="Password" required="">
+						</div>
+					</div>
+
+					<div class="col-lg-12">
+						<p class="float-right forgot-pass"><a href="page_recovery_passward.html"
+								class="text-dark font-weight-bold">Forgot password ?</a></p>
+						<div class="form-group">
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="customCheck1">
+								<label class="custom-control-label" for="customCheck1">Remember me</label>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-12 mb-0">
+						<button class="btn btn-primary w-100">Sign in</button>
+					</div>
+					<div class="col-lg-12 mt-4 text-center">
+						<h6>Or Login With</h6>
+						<ul class="list-unstyled social-icon mb-0 mt-3">
+							<li class="list-inline-item">
+								<a href="javascript:void(0)" class="rounded">
+									<i class="fab fa-facebook-f" title="Facebook"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="javascript:void(0)" class="rounded">
+									<i class="fab fa-google" title="Google"></i>
+								</a>
+							</li>
+						</ul>
+						<!--end icon-->
+					</div>
+					<div class="col-12 text-center">
+						<p class="mb-0 mt-3"><small class="text-dark">Don't have an account?</small>
+							<a id="login-flip" href="#" class="font-weight-bold">Sign Up</a>
+						</p>
+					</div>
+				</div>
+			</form>
+		</div> <!-- End modal content front -->
+
+		<div id="back" class="modal-content back">
+			<div class="close-btn">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="text-center">
+				<h4 class="mb-4">Signup</h4>
+			</div>
+			<form class="login-form">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group position-relative">
+							<label>First name <span class="text-danger">*</span></label>
+							<i class="mdi mdi-account ml-3 icons"></i>
+							<input type="text" class="form-control" placeholder="First Name" name="s" required="">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group position-relative">
+							<label>Last name <span class="text-danger">*</span></label>
+							<i class="mdi mdi-account ml-3 icons"></i>
+							<input type="text" class="form-control" placeholder="Last Name" name="s" required="">
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="form-group position-relative">
+							<label>Your Email <span class="text-danger">*</span></label>
+							<i class="mdi mdi-account ml-3 icons"></i>
+							<input type="email" class="form-control" placeholder="Email" name="email" required="">
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="form-group position-relative">
+							<label>Password <span class="text-danger">*</span></label>
+							<i class="mdi mdi-key ml-3 icons"></i>
+							<input type="password" class="form-control" placeholder="Password" required="">
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="form-group position-relative">
+							<label>Confirm Password <span class="text-danger">*</span></label>
+							<i class="mdi mdi-key ml-3 icons"></i>
+							<input type="password" class="form-control" placeholder="Confirm Password" required="">
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="form-group">
+							<div class="custom-control custom-checkbox">
+								<input type="checkbox" class="custom-control-input" id="customCheck2">
+								<label class="custom-control-label" for="customCheck2">I Accept <a href="#"
+										class="text-primary">Terms And Condition</a></label>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<button class="btn btn-primary w-100">Register</button>
+					</div>
+					<div class="col-lg-12 mt-4 text-center">
+						<h6>Or Signup With</h6>
+						<ul class="list-unstyled social-icon mb-0 mt-3">
+							<li class="list-inline-item">
+								<a href="javascript:void(0)" class="rounded">
+									<i class="fab fa-facebook-f" title="Facebook"></i>
+								</a>
+							</li>
+							<li class="list-inline-item">
+								<a href="javascript:void(0)" class="rounded">
+									<i class="fab fa-google" title="Google"></i>
+								</a>
+							</li>
+						</ul>
+
+					</div>
+					<div class="mx-auto">
+						<p class="mb-0 mt-3"><small class="text-dark">Already have an account?</small>
+							<a id="register-flip" href="#" class="font-weight-bold">Sign in</a>
+						</p>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>

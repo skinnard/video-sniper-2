@@ -1,23 +1,21 @@
-{% include head.html %}
+{% include homepage/head.html %}
 
 <body data-spy="scroll" data-target="#navigation-menu" data-offset="100" style="position: relative;">
 
-	{% include login-modal.html %}
-	{% include register-modal.html %}
+	{% include shared/login-modal.html %}
+	{% include shared/register-modal.html %}
 
-	{% include loader.html %}
+	{% include shared/loader.html %}
 
 	<div class="wrapper">
 
-		{% include header.html %}
+		{% include homepage/header.html %}
 
 		{{ content }}
 
-		{% include footer.html %}
-		{% include backtotop.html %}
-
-		<!-- Jquery and Js Plugins -->
-		{% include scripts.html %}
+		{% include homepage/footer.html %}
+		{% include shared/backtotop.html %}
+		{% include homepage/scripts.html %}
 
 </body>
 

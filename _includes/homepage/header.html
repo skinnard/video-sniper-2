@@ -1,0 +1,83 @@
+<!-- Navbar STart -->
+<header id="topnav" class="defaultscroll sticky">
+	<div class="container">
+		<!-- Logo container-->
+		<div class="logo-wrapper">
+			<a class="logo" href="/index.html">{% svg '/assets/images/vsp-logo.svg' %}</a>
+		</div>
+		<div class="signup-buttons">
+			<div class="login-wrapper">
+				<a href="#" target="_blank" data-toggle="modal" data-target="#loginModal">Login</a>
+			</div>
+			<div class="buy-button">
+				<a href="#" target="_blank" class="btn btn-primary" data-toggle="modal"
+					data-target="#registerModal">Sign
+					Up</a>
+			</div>
+		</div>
+		<!--end login button-->
+		<!-- End Logo container-->
+		<div class="menu-extras">
+			<div class="menu-item">
+				<!-- Mobile menu toggle-->
+				<a class="navbar-toggle">
+					<div class="lines">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</a>
+				<!-- End mobile menu toggle-->
+			</div>
+		</div>
+
+		<div>
+
+			{% if page.id == 'home' %}
+			<!-- Navigation Menu-->
+			<ul id="navigation-menu" class="nav navigation-menu">
+				<li class="nav-item">
+					<a class="nav-link scroll" href="#home-features">Features</a></li>
+				<li class="nav-item">
+					<a class="nav-link scroll" href="#home-pricing">Pricing</a></li>
+				<li class="nav-item">
+					<a class="nav-link scroll" href="#home-faq">FAQ</a></li>
+			</ul>
+			{% else %}
+			<!-- Navigation Menu-->
+			<ul id="navigation-menu" class="nav navigation-menu">
+				<li class="nav-item">
+					<a class="nav-link" href="{{ site.url }}/#home-features">Features</a></li>
+				<li class="nav-item">
+					<a class="nav-link" href="{{ site.url }}/#home-pricing">Pricing</a></li>
+				<li class="nav-item">
+					<a class="nav-link" href="{{ site.url }}/#home-faq">FAQ</a></li>
+			</ul>
+			{% endif %}
+			<!-- <ul id="navigation-menu" class="nav nav-pills">
+				<li class="nav-item">
+					<a class="nav-link" href="#home-features">@fat</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#home-pricing">@mdo</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#home-faq">@mdo</a>
+				</li>
+
+			</ul> -->
+
+
+
+			<!--end navigation menu-->
+			<div class="buy-menu-btn d-none">
+				<a href="#" target="_blank" class="btn btn-primary">Buy Now</a>
+			</div>
+			<!--end login button-->
+		</div>
+		<!--end navigation-->
+	</div>
+	<!--end container-->
+</header>
+<!--end header-->
+<!-- Navbar End -->
