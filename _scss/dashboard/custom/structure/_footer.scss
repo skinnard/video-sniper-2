@@ -2,7 +2,7 @@
 // footer.scss
 //
 
-.footer {
+.dash-footer {
     bottom: 0;
     padding: 19px 15px 20px;
     position: absolute;
@@ -10,16 +10,18 @@
     color: $gray-600;
     left: $leftbar-width;
     background-color: $white;
-    box-shadow: 0 0 1px rgba(50,58,70,.1);
+    box-shadow: 0 0 1px rgba(50, 58, 70, .1);
 
     .footer-links {
         a {
             color: $gray-600;
             margin-left: 1.5rem;
             transition: all .4s;
+
             &:hover {
                 color: $gray-900;
             }
+
             &:first-of-type {
                 margin-left: 0;
             }

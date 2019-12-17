@@ -6,6 +6,22 @@
     display: none;
 }
 
+.hide-mobile {
+    display: block;
+
+    @include mq(custom, max, 992) {
+        display: none;
+    }
+}
+
+.hide-desktop {
+    display: none;
+
+    @include mq(custom, max, 991) {
+        display: block;
+    }
+}
+
 .section {
     padding: 100px 0;
     position: relative;

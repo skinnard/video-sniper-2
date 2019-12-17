@@ -8,9 +8,11 @@ $value in $colors {
     .bg-#{$name} {
         background-color: #{$value} !important;
     }
+
     .text-#{$name} {
         color: #{$value} !important;
     }
+
     a {
         &.text-#{$name} {
             &:hover {
@@ -30,18 +32,22 @@ $value in $colors {
 .rounded {
     border-radius: 10px !important;
 }
+
 .rounded-top {
     border-top-left-radius: 10px !important;
     border-top-right-radius: 10px !important;
 }
+
 .rounded-left {
     border-top-left-radius: 10px !important;
     border-bottom-left-radius: 10px !important;
 }
+
 .rounded-bottom {
     border-bottom-left-radius: 10px !important;
     border-bottom-right-radius: 10px !important;
 }
+
 .rounded-right {
     border-top-right-radius: 10px !important;
     border-bottom-right-radius: 10px !important;
@@ -51,21 +57,26 @@ $value in $colors {
 .border {
     border: 1px solid $gray-200 !important;
 }
+
 .border-top {
-    border-top: 1px solid $gray-200 !important;    
+    border-top: 1px solid $gray-200 !important;
 }
+
 .border-bottom {
-    border-bottom: 1px solid $gray-200 !important;    
+    border-bottom: 1px solid $gray-200 !important;
 }
+
 .border-left {
-    border-left: 1px solid $gray-200 !important;    
+    border-left: 1px solid $gray-200 !important;
 }
+
 .border-right {
-    border-right: 1px solid $gray-200 !important;    
+    border-right: 1px solid $gray-200 !important;
 }
 
 //Small
-.small, small {
+.small,
+small {
     font-size: 90%;
 }
 
@@ -74,12 +85,16 @@ $value in $colors {
     display: block;
     width: 100%;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;    
+    -webkit-overflow-scrolling: touch;
+
     .table-center {
-        td,th {
+
+        td,
+        th {
             vertical-align: middle !important;
             cursor: pointer;
         }
+
         tbody {
             tr {
                 &:hover {
@@ -94,4 +109,13 @@ $value in $colors {
 //modal
 .modal-open {
     padding-right: 0 !important;
+    // position: fixed !important;
+}
+
+.modal {
+    background: none;
+
+    @include mq(custom, max, 700) {
+        background: #fff;
+    }
 }

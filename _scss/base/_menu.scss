@@ -22,6 +22,12 @@
         }
     }
 
+    .nav-links {
+        @include mq(custom, max, 991) {
+            display: none;
+        }
+    }
+
 
     .has-submenu {
         &.active {
@@ -97,6 +103,10 @@
         line-height: 68px;
         padding: 3px 0;
         display: flex;
+
+        @include mq(custom, max, 991) {
+            display: none;
+        }
 
         .login-wrapper {
             margin-right: 20px;
@@ -198,7 +208,13 @@
     }
 
     .menu-extras {
-        float: right;
+        display: none;
+
+
+        @include mq(custom, max, 991) {
+            display: inline-block;
+            float: right;
+        }
     }
 
     &.scroll {
@@ -256,6 +272,11 @@
     }
 
     #navigation-menu {
+
+        @include mq(custom, max, 991) {
+            display: none;
+        }
+
         .nav-item {
             .nav-link {
                 &.active {
@@ -659,5 +680,13 @@
                 margin-right: 0 !important;
             }
         }
+    }
+}
+
+#topnav {
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
