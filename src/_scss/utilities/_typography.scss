@@ -1,0 +1,54 @@
+//
+// typography.scss
+//
+
+body {
+    font-family: $font-family-secondary;
+    overflow-x: hidden !important;
+    font-size: $font-size-base;
+    color: $body-color;
+    background: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: $font-family-base;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1.2;
+}
+
+h1 {
+    @include font-size(42);
+
+    @include mq(custom, max, 991) {
+        @include font-size(38);
+    }
+
+    @include mq(custom, max, 500) {
+        @include font-size(32);
+    }
+}
+
+::selection {
+    background: lighten($primary, 5%);
+    color: $white;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+p {
+    line-height: 1.6;
+}

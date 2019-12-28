@@ -1,0 +1,68 @@
+.faq-content {
+    .card {
+        margin-bottom: 20px;
+
+        .faq {
+            .card-header {
+                padding-right: 40px !important;
+
+                .title {
+                    margin: 0;
+                    color: inherit;
+                    @include font-size(18);
+                    font-weight: 700;
+                    font-family: $font-family-base;
+                }
+
+                &.card-header-2 {
+                    border-bottom: 0;
+
+                    .faq-question {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+
+        a.faq[data-toggle=collapse] {
+            background-color: $white;
+            color: $primary;
+            transition: all 0.5s;
+
+            &:before {
+                font-family: "Font Awesome 5 Free";
+                font-weight: 900;
+                content: "\f078";
+                display: flex;
+                align-items: center;
+                font-size: 18px;
+                color: $dark;
+                position: absolute;
+                right: 20px;
+                // top: 50%;
+                transform: translateY(-50%);
+                transform: rotate(180deg);
+                transition: all 0.5s ease;
+                transform-origin: center;
+                width: 15px;
+                height: 15px;
+                top: 32px;
+            }
+
+            &.collapsed {
+                background-color: $white;
+                color: $dark;
+                transition: all 0.5s;
+
+                &:before {
+                    transform: rotate(0);
+                    transform-origin: center;
+                }
+            }
+        }
+
+        .title {
+            font-size: 18px;
+        }
+    }
+}

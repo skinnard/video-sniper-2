@@ -1,0 +1,53 @@
+#home-quick-feature {
+    background: $gray-200;
+    background: url(../../assets/images/home-bg-1-red.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    .container {
+
+        .main-title {
+            color: #fff;
+        }
+
+        .subtitle {
+            color: #fff;
+        }
+
+        .feature-wrapper {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 700px;
+            margin: 0 auto;
+
+            .left,
+            .center,
+            .right {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                @include mq(custom, max, 500) {
+                    width: 100%;
+                    margin-bottom: 20px;
+                    ;
+                }
+
+                i {
+                    @include font-size(40);
+                    color: #fff;
+                }
+
+                p {
+                    margin-top: 10px;
+                    text-transform: uppercase;
+                    color: #fff;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

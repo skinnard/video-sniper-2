@@ -1,0 +1,7 @@
+#home-cta {
+	padding: 140px 0;
+
+	@include mq(custom, max, 767) {
+		padding: 100px 0;
+	}
+}
